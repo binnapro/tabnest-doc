@@ -53,7 +53,7 @@ Keep TabNest running smoothly with these optimization strategies.
 
 ### Memory Usage
 
-- TabNest typically uses <50MB RAM
+- TabNest typically uses less than 50MB RAM
 - Close unused Spaces to reduce memory
 - Restart browser weekly if memory high
 

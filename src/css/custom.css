@@ -1,30 +1,193 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * TabNest Documentation - Custom Styles
+ * Built with Docusaurus 3.x using TabNest brand colors
  */
 
-/* You can override the default Infima variables here. */
+/* TabNest Brand Colors */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary: Ant Design Blue */
+  --ifm-color-primary: #1890ff;
+  --ifm-color-primary-dark: #096dd9;
+  --ifm-color-primary-darker: #0050b3;
+  --ifm-color-primary-darkest: #003a8c;
+  --ifm-color-primary-light: #40a9ff;
+  --ifm-color-primary-lighter: #69c0ff;
+  --ifm-color-primary-lightest: #bae7ff;
+
+  /* Accent: Gold */
+  --ifm-color-accent: #faad14;
+
+  /* Spacing and typography */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(24, 144, 255, 0.1);
+
+  /* Subtle animations */
+  --ifm-transition-fast: 150ms ease-in-out;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Mode - Lighter palette for readability */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #177ddc;
+  --ifm-color-primary-dark: #1765ad;
+  --ifm-color-primary-darker: #1554c1;
+  --ifm-color-primary-darkest: #003eb3;
+  --ifm-color-primary-light: #3c9ae8;
+  --ifm-color-primary-lighter: #69b1ff;
+  --ifm-color-primary-lightest: #adc6ff;
+
+  --ifm-color-accent: #ffc53d;
+  --docusaurus-highlighted-code-line-bg: rgba(177, 181, 255, 0.15);
+  --ifm-background-surface-secondary: #2b2b2b;
+}
+
+/* Enhance hero banner styling */
+.hero {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
+}
+
+[data-theme='dark'] .hero {
+  background: linear-gradient(135deg, #1a1a1a 0%, #262626 100%);
+}
+
+.hero__title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--ifm-color-primary-dark);
+  letter-spacing: -0.5px;
+}
+
+[data-theme='dark'] .hero__title {
+  color: var(--ifm-color-primary-light);
+}
+
+.hero__subtitle {
+  font-size: 1.3rem;
+  color: #666;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .hero__subtitle {
+  color: #ccc;
+}
+
+/* Feature cards enhancement */
+.feature-card {
+  transition: all var(--ifm-transition-fast);
+  border-radius: 8px;
+  padding: 20px;
+  background: transparent;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(24, 144, 255, 0.15);
+  background: rgba(24, 144, 255, 0.05);
+}
+
+[data-theme='dark'] .feature-card:hover {
+  background: rgba(24, 144, 255, 0.1);
+}
+
+/* Section styling */
+section {
+  transition: background-color var(--ifm-transition-fast);
+}
+
+/* Use case cards */
+.use-case-card {
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 20px;
+  border-radius: 0 8px 8px 0;
+  transition: all var(--ifm-transition-fast);
+  background: rgba(24, 144, 255, 0.02);
+}
+
+[data-theme='dark'] .use-case-card {
+  background: rgba(24, 144, 255, 0.05);
+}
+
+.use-case-card:hover {
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.12);
+  transform: translateX(4px);
+}
+
+/* CTA Buttons */
+.button {
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all var(--ifm-transition-fast);
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(24, 144, 255, 0.3);
+}
+
+.button--secondary {
+  color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--secondary:hover {
+  color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  background-color: rgba(24, 144, 255, 0.05);
+}
+
+[data-theme='dark'] .button--secondary:hover {
+  background-color: rgba(24, 144, 255, 0.1);
+}
+
+/* Link styling */
+a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}
+
+/* Code blocks */
+:not(pre) > code {
+  background-color: rgba(24, 144, 255, 0.1);
+  color: var(--ifm-color-primary-dark);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+[data-theme='dark'] :not(pre) > code {
+  background-color: rgba(24, 144, 255, 0.15);
+  color: var(--ifm-color-primary-light);
+}
+
+/* Pre blocks */
+pre {
+  background-color: #f6f8fa;
+  border: 1px solid #e0e0e0;
+}
+
+[data-theme='dark'] pre {
+  background-color: #1e1e1e;
+  border: 1px solid #404040;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.1rem;
+  }
 }
