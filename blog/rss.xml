@@ -9,115 +9,115 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Getting Started with AI Tab Categorization]]></title>
+            <title><![CDATA[AI 标签页分类入门指南]]></title>
             <link>https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide</link>
             <guid>https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide</guid>
             <pubDate>Mon, 02 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[TabNest's AI-powered categorization can save you hours of manual tab organization. Here's how to get started!]]></description>
-            <content:encoded><![CDATA[<p>TabNest's AI-powered categorization can save you hours of manual tab organization. Here's how to get started!</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-use-ai-categorization">Why Use AI Categorization?<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#why-use-ai-categorization" class="hash-link" aria-label="Direct link to Why Use AI Categorization?" title="Direct link to Why Use AI Categorization?" translate="no">​</a></h2>
+            <description><![CDATA[TabNest 的 AI 智能分类可以为你节省数小时的手动标签页整理时间。以下是入门方法!]]></description>
+            <content:encoded><![CDATA[<p>TabNest 的 AI 智能分类可以为你节省数小时的手动标签页整理时间。以下是入门方法!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="为什么使用-ai-分类">为什么使用 AI 分类?<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8-ai-%E5%88%86%E7%B1%BB" class="hash-link" aria-label="Direct link to 为什么使用 AI 分类?" title="Direct link to 为什么使用 AI 分类?" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>Save Time</strong> - Organize hundreds of tabs in seconds</li>
-<li class=""><strong>Smart Grouping</strong> - AI understands context and purpose</li>
-<li class=""><strong>Easy Refinement</strong> - Review and adjust before applying</li>
-<li class=""><strong>Multiple Providers</strong> - Choose the AI service you prefer</li>
+<li class=""><strong>节省时间</strong> - 在几秒钟内整理数百个标签页</li>
+<li class=""><strong>智能分组</strong> - AI 理解上下文和目的</li>
+<li class=""><strong>轻松优化</strong> - 在应用前审查和调整</li>
+<li class=""><strong>多种提供商</strong> - 选择你喜欢的 AI 服务</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-set-up-your-ai-provider">Step 1: Set Up Your AI Provider<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#step-1-set-up-your-ai-provider" class="hash-link" aria-label="Direct link to Step 1: Set Up Your AI Provider" title="Direct link to Step 1: Set Up Your AI Provider" translate="no">​</a></h2>
-<p>The easiest option is to use <strong>Claude</strong> from Anthropic:</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="步骤-1设置你的-ai-提供商">步骤 1:设置你的 AI 提供商<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#%E6%AD%A5%E9%AA%A4-1%E8%AE%BE%E7%BD%AE%E4%BD%A0%E7%9A%84-ai-%E6%8F%90%E4%BE%9B%E5%95%86" class="hash-link" aria-label="Direct link to 步骤 1:设置你的 AI 提供商" title="Direct link to 步骤 1:设置你的 AI 提供商" translate="no">​</a></h2>
+<p>最简单的选项是使用 Anthropic 的 <strong>Claude</strong>:</p>
 <ol>
-<li class="">Get an API key from <a href="https://console.anthropic.com/" target="_blank" rel="noopener noreferrer" class="">Anthropic Console</a></li>
-<li class="">Open TabNest Settings → AI Configuration</li>
-<li class="">Add your Claude API key</li>
-<li class="">Click "Test Connection"</li>
+<li class="">从 <a href="https://console.anthropic.com/" target="_blank" rel="noopener noreferrer" class="">Anthropic Console</a> 获取 API 密钥</li>
+<li class="">打开 TabNest 设置 → AI 配置</li>
+<li class="">添加你的 Claude API 密钥</li>
+<li class="">点击"测试连接"</li>
 </ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-run-categorization">Step 2: Run Categorization<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#step-2-run-categorization" class="hash-link" aria-label="Direct link to Step 2: Run Categorization" title="Direct link to Step 2: Run Categorization" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="步骤-2运行分类">步骤 2:运行分类<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#%E6%AD%A5%E9%AA%A4-2%E8%BF%90%E8%A1%8C%E5%88%86%E7%B1%BB" class="hash-link" aria-label="Direct link to 步骤 2:运行分类" title="Direct link to 步骤 2:运行分类" translate="no">​</a></h2>
 <ol>
-<li class="">Save tabs you want to organize</li>
-<li class="">Click the ⚡ AI Smart Categorize button</li>
-<li class="">Watch as AI analyzes and suggests groupings</li>
-<li class="">Review the results</li>
-<li class="">Click "Apply" to accept or "Cancel" to try again</li>
+<li class="">保存你想要整理的标签页</li>
+<li class="">点击 ⚡ AI 智能分类按钮</li>
+<li class="">观看 AI 分析并建议分组</li>
+<li class="">审查结果</li>
+<li class="">点击"应用"接受或"取消"重试</li>
 </ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tips-for-best-results">Tips for Best Results<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#tips-for-best-results" class="hash-link" aria-label="Direct link to Tips for Best Results" title="Direct link to Tips for Best Results" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="获得最佳结果的技巧">获得最佳结果的技巧<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#%E8%8E%B7%E5%BE%97%E6%9C%80%E4%BD%B3%E7%BB%93%E6%9E%9C%E7%9A%84%E6%8A%80%E5%B7%A7" class="hash-link" aria-label="Direct link to 获得最佳结果的技巧" title="Direct link to 获得最佳结果的技巧" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>Good tab titles matter</strong> - Pages with descriptive titles categorize better</li>
-<li class=""><strong>Start small</strong> - Try with 10-20 tabs first</li>
-<li class=""><strong>Iterate</strong> - Run categorization multiple times to refine</li>
-<li class=""><strong>Combine with manual</strong> - AI + manual organization = perfect system</li>
+<li class=""><strong>良好的标签页标题很重要</strong> - 具有描述性标题的页面分类效果更好</li>
+<li class=""><strong>从小处开始</strong> - 先尝试 10-20 个标签页</li>
+<li class=""><strong>迭代</strong> - 多次运行分类以优化</li>
+<li class=""><strong>结合手动</strong> - AI + 手动整理 = 完美系统</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cost-breakdown">Cost Breakdown<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#cost-breakdown" class="hash-link" aria-label="Direct link to Cost Breakdown" title="Direct link to Cost Breakdown" translate="no">​</a></h2>
-<p>Using Claude:</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="成本分析">成本分析<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#%E6%88%90%E6%9C%AC%E5%88%86%E6%9E%90" class="hash-link" aria-label="Direct link to 成本分析" title="Direct link to 成本分析" translate="no">​</a></h2>
+<p>使用 Claude:</p>
 <ul>
-<li class="">Most categorization: $0.05-0.15</li>
-<li class="">You pay only for what you use</li>
-<li class="">Monitor your usage in the Anthropic dashboard</li>
+<li class="">大多数分类:$0.05-0.15</li>
+<li class="">你只需为使用的部分付费</li>
+<li class="">在 Anthropic 仪表板中监控你的使用情况</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting">Troubleshooting<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting" translate="no">​</a></h2>
-<p><strong>Poor results?</strong></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="故障排除">故障排除<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4" class="hash-link" aria-label="Direct link to 故障排除" title="Direct link to 故障排除" translate="no">​</a></h2>
+<p><strong>结果不佳?</strong></p>
 <ul>
-<li class="">Check that tabs have descriptive titles</li>
-<li class="">Try a smaller batch</li>
-<li class="">Try a different AI model</li>
+<li class="">检查标签页是否有描述性标题</li>
+<li class="">尝试较小的批次</li>
+<li class="">尝试不同的 AI 模型</li>
 </ul>
-<p><strong>Connection errors?</strong></p>
+<p><strong>连接错误?</strong></p>
 <ul>
-<li class="">Verify your API key is correct</li>
-<li class="">Check your internet connection</li>
-<li class="">Ensure your API key has sufficient credits</li>
+<li class="">验证你的 API 密钥是否正确</li>
+<li class="">检查你的互联网连接</li>
+<li class="">确保你的 API 密钥有足够的额度</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="next-steps">Next Steps<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#next-steps" class="hash-link" aria-label="Direct link to Next Steps" title="Direct link to Next Steps" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="下一步">下一步<a href="https://oayzz.github.io/tabnest-doc/blog/ai-categorization-guide#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="Direct link to 下一步" title="Direct link to 下一步" translate="no">​</a></h2>
 <ul>
-<li class=""><a class="" href="https://oayzz.github.io/tabnest-doc/docs/features/ai-classify">Read the full AI documentation</a></li>
-<li class=""><a class="" href="https://oayzz.github.io/tabnest-doc/docs/advanced/shortcuts">Learn keyboard shortcuts</a> for faster workflows</li>
-<li class=""><a class="" href="https://oayzz.github.io/tabnest-doc/docs/features/cloud-sync">Set up cloud sync</a> to keep your data safe</li>
+<li class=""><a class="" href="https://oayzz.github.io/tabnest-doc/docs/features/ai-classify">阅读完整的 AI 文档</a></li>
+<li class=""><a class="" href="https://oayzz.github.io/tabnest-doc/docs/advanced/shortcuts">学习键盘快捷键</a>以实现更快的工作流程</li>
+<li class=""><a class="" href="https://oayzz.github.io/tabnest-doc/docs/features/cloud-sync">设置云端同步</a>以保持数据安全</li>
 </ul>
-<p>Enjoy your perfectly organized tabs!</p>]]></content:encoded>
+<p>享受你完美整理的标签页吧!</p>]]></content:encoded>
             <category>ai</category>
-            <category>features</category>
-            <category>guide</category>
+            <category>功能</category>
+            <category>指南</category>
         </item>
         <item>
-            <title><![CDATA[TabNest v0.1.4 Release]]></title>
+            <title><![CDATA[TabNest v0.1.4 发布]]></title>
             <link>https://oayzz.github.io/tabnest-doc/blog/release-v014</link>
             <guid>https://oayzz.github.io/tabnest-doc/blog/release-v014</guid>
             <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[We're excited to announce the release of TabNest v0.1.4 with major improvements and new features!]]></description>
-            <content:encoded><![CDATA[<p>We're excited to announce the release of TabNest v0.1.4 with major improvements and new features!</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's New<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-new-features">✨ New Features<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#-new-features" class="hash-link" aria-label="Direct link to ✨ New Features" title="Direct link to ✨ New Features" translate="no">​</a></h3>
+            <description><![CDATA[我们很高兴宣布 TabNest v0.1.4 发布,带来了重大改进和新功能!]]></description>
+            <content:encoded><![CDATA[<p>我们很高兴宣布 TabNest v0.1.4 发布,带来了重大改进和新功能!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="新增内容">新增内容<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#%E6%96%B0%E5%A2%9E%E5%86%85%E5%AE%B9" class="hash-link" aria-label="Direct link to 新增内容" title="Direct link to 新增内容" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-新功能">✨ 新功能<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#-%E6%96%B0%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="Direct link to ✨ 新功能" title="Direct link to ✨ 新功能" translate="no">​</a></h3>
 <ul>
-<li class=""><strong>AI-Powered Categorization</strong> - Automatically organize tabs using multiple AI providers (Claude, OpenAI, Bailian)</li>
-<li class=""><strong>Cloud Sync</strong> - Sync your tabs to GitHub Gist or WebDAV</li>
-<li class=""><strong>Global Search</strong> - Instantly find any tab across all your Spaces</li>
-<li class=""><strong>Dark Mode</strong> - Beautiful dark theme with system preference support</li>
-<li class=""><strong>Multi-language</strong> - Support for English and Simplified Chinese</li>
+<li class=""><strong>AI 智能分类</strong> - 使用多个 AI 提供商(Claude、OpenAI、百炼)自动整理标签页</li>
+<li class=""><strong>云端同步</strong> - 将标签页同步到 GitHub Gist 或 WebDAV</li>
+<li class=""><strong>全局搜索</strong> - 即时查找所有空间中的任何标签页</li>
+<li class=""><strong>深色模式</strong> - 精美的深色主题,支持系统偏好</li>
+<li class=""><strong>多语言</strong> - 支持英文和简体中文</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-bug-fixes">🐛 Bug Fixes<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#-bug-fixes" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-bug-修复">🐛 Bug 修复<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#-bug-%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="Direct link to 🐛 Bug 修复" title="Direct link to 🐛 Bug 修复" translate="no">​</a></h3>
 <ul>
-<li class="">Fixed tab ordering issues</li>
-<li class="">Improved performance with large collections</li>
-<li class="">Enhanced keyboard navigation</li>
-<li class="">Better error handling</li>
+<li class="">修复了标签页排序问题</li>
+<li class="">改进了大型集合的性能</li>
+<li class="">增强了键盘导航</li>
+<li class="">更好的错误处理</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-performance">🚀 Performance<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#-performance" class="hash-link" aria-label="Direct link to 🚀 Performance" title="Direct link to 🚀 Performance" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-性能">🚀 性能<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#-%E6%80%A7%E8%83%BD" class="hash-link" aria-label="Direct link to 🚀 性能" title="Direct link to 🚀 性能" translate="no">​</a></h3>
 <ul>
-<li class="">30% faster load times</li>
-<li class="">Reduced memory usage</li>
-<li class="">Optimized storage operations</li>
-<li class="">Smoother animations</li>
+<li class="">加载时间提高 30%</li>
+<li class="">减少了内存使用</li>
+<li class="">优化了存储操作</li>
+<li class="">更流畅的动画</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-started">Getting Started<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="快速开始">快速开始<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B" class="hash-link" aria-label="Direct link to 快速开始" title="Direct link to 快速开始" translate="no">​</a></h2>
 <ol>
-<li class="">Install TabNest from Chrome Web Store</li>
-<li class="">Create your first Space</li>
-<li class="">Start saving and organizing your tabs!</li>
+<li class="">从 Chrome 网上应用店安装 TabNest</li>
+<li class="">创建你的第一个空间</li>
+<li class="">开始保存和整理你的标签页!</li>
 </ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="feedback">Feedback<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#feedback" class="hash-link" aria-label="Direct link to Feedback" title="Direct link to Feedback" translate="no">​</a></h2>
-<p>We'd love to hear your feedback! Please visit our <a href="https://github.com/oayzz/tabnest/issues" target="_blank" rel="noopener noreferrer" class="">GitHub Issues</a> page to report bugs or suggest features.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you">Thank You<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#thank-you" class="hash-link" aria-label="Direct link to Thank You" title="Direct link to Thank You" translate="no">​</a></h2>
-<p>Thanks to all our users and contributors who helped make this release possible!</p>]]></content:encoded>
-            <category>release</category>
-            <category>features</category>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="反馈">反馈<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#%E5%8F%8D%E9%A6%88" class="hash-link" aria-label="Direct link to 反馈" title="Direct link to 反馈" translate="no">​</a></h2>
+<p>我们很乐意听到你的反馈!请访问我们的 <a href="https://github.com/oayzz/tabnest/issues" target="_blank" rel="noopener noreferrer" class="">GitHub Issues</a> 页面报告错误或建议功能。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="感谢">感谢<a href="https://oayzz.github.io/tabnest-doc/blog/release-v014#%E6%84%9F%E8%B0%A2" class="hash-link" aria-label="Direct link to 感谢" title="Direct link to 感谢" translate="no">​</a></h2>
+<p>感谢所有帮助实现此版本的用户和贡献者!</p>]]></content:encoded>
+            <category>发布</category>
+            <category>功能</category>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
