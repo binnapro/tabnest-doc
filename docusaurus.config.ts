@@ -25,26 +25,14 @@ const config: Config = {
   organizationName: 'oayzz', // Usually your GitHub org/user name.
   projectName: 'tabnest-doc', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-CN',
-    locales: ['zh-CN', 'en'],
-    localeConfigs: {
-      'zh-CN': {
-        label: '中文',
-        direction: 'ltr',
-        htmlLang: 'zh-CN',
-      },
-      en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en',
-      },
-    },
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -76,6 +64,16 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en', 'zh'],
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/tabnest-social-card.jpg',
@@ -99,10 +97,6 @@ const config: Config = {
         {
           href: 'https://github.com/oayzz/tabnest',
           label: 'GitHub',
-          position: 'right',
-        },
-        {
-          type: 'localeDropdown',
           position: 'right',
         },
       ],
