@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktabnest_doc=globalThis.webpackChunktabnest_doc||[]).push([[1903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/tabnest-doc/blog","blogTitle":"Blog","authorsListPath":"/tabnest-doc/blog/authors"}')}}]);
