@@ -1,46 +1,46 @@
 ---
 sidebar_position: 2
-title: Installation
+title: 安装指南
 ---
 
-# Installation Guide
+# 安装指南
 
-Learn how to install TabNest on your preferred browser.
+了解如何在你的浏览器上安装 TabNest。
 
-## Chrome / Chromium-based Browsers
+## Chrome / 基于 Chromium 的浏览器
 
-### Install from Chrome Web Store
+### 从 Chrome 网上应用店安装
 
-1. Open [Chrome Web Store](https://chromewebstore.google.com)
-2. Search for "TabNest"
-3. Click "Add to Chrome"
-4. Confirm the permissions dialog
+1. 打开 [Chrome 网上应用店](https://chromewebstore.google.com)
+2. 搜索"TabNest"
+3. 点击"添加至 Chrome"
+4. 确认权限对话框
 
-### Supported Browsers
+### 支持的浏览器
 
 - Google Chrome
 - Microsoft Edge
 - Brave
 - Opera
-- Other Chromium-based browsers
+- 其他基于 Chromium 的浏览器
 
 ## Firefox
 
-Firefox support will be available soon. Check back for updates!
+Firefox 支持即将推出，敬请期待！
 
-## Troubleshooting
+## 故障排除
 
-### Extension not appearing in toolbar
+### 扩展程序未出现在工具栏中
 
-- Right-click the extension icon and select "Pin to toolbar"
-- The keyboard shortcut `Cmd+Shift+O` (Mac) or `Ctrl+Shift+O` (Windows/Linux) also opens TabNest
+- 右键点击扩展图标并选择"固定到工具栏"
+- 也可以使用快捷键 `Cmd+Shift+O`（Mac）或 `Ctrl+Shift+O`（Windows/Linux）打开 TabNest
 
-### Permission denied errors
+### 权限被拒绝错误
 
-- Make sure TabNest has proper permissions
-- Go to browser settings → Extensions → TabNest → Permissions
+- 确保 TabNest 拥有适当的权限
+- 前往浏览器设置 → 扩展程序 → TabNest → 权限
 
-## Next Steps
+## 下一步
 
-- [Set up your first Space](./basic-usage)
-- [Configure Cloud Sync](../02-features/cloud-sync)
+- [设置你的第一个空间](./basic-usage)
+- [配置云端同步](../02-features/cloud-sync)

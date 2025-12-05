@@ -1,255 +1,255 @@
 ---
 sidebar_position: 5
-title: Cloud Sync
+title: 云端同步
 ---
 
-# Cloud Sync - Backup & Restore
+# 云端同步 - 备份与恢复
 
-Keep your tab collection safe and accessible across devices with cloud synchronization. TabNest supports two popular cloud storage options.
+通过云端同步保持你的标签页集合安全并可跨设备访问。TabNest 支持两种流行的云存储选项。
 
-## Sync Methods
+## 同步方法
 
-### GitHub Gist Sync
+### GitHub Gist 同步
 
-**Pros:**
-- Free
-- Version history maintained
-- Backed by trusted GitHub
-- Private gists available
-- Easy to share if needed
+**优点:**
+- 免费
+- 保留版本历史
+- 由值得信赖的 GitHub 支持
+- 可使用私有 gist
+- 需要时易于共享
 
-**Cons:**
-- Requires GitHub account
-- Manual sync (with auto-sync available)
-- 1MB file size limit per gist
+**缺点:**
+- 需要 GitHub 账户
+- 手动同步(可启用自动同步)
+- 每个 gist 1MB 文件大小限制
 
-**Best for:** Developers, version control enthusiasts
+**最适合:** 开发者、版本控制爱好者
 
-### WebDAV Sync
+### WebDAV 同步
 
-**Pros:**
-- Works with multiple services
-- Automatic sync available
-- No third-party account needed
-- Large file support
-- Self-hosted options available
+**优点:**
+- 支持多种服务
+- 可启用自动同步
+- 无需第三方账户
+- 支持大文件
+- 可自托管选项
 
-**Cons:**
-- Requires WebDAV server
-- Setup can be technical
-- Less version history
+**缺点:**
+- 需要 WebDAV 服务器
+- 设置可能较技术化
+- 版本历史较少
 
-**Best for:** Privacy-focused users, enterprise environments
+**最适合:** 注重隐私的用户、企业环境
 
-**Supported Services:**
-- Jianguo Cloud (坚果云) - Popular in China
-- Nextcloud - Open-source solution
-- Self-hosted WebDAV servers
-- Other WebDAV-compatible services
+**支持的服务:**
+- 坚果云 - 在中国很受欢迎
+- Nextcloud - 开源解决方案
+- 自托管 WebDAV 服务器
+- 其他 WebDAV 兼容服务
 
-## Setting Up GitHub Gist Sync
+## 设置 GitHub Gist 同步
 
-### Step 1: Create GitHub Personal Access Token
+### 步骤 1:创建 GitHub 个人访问令牌
 
-1. Go to GitHub → Settings → Developer settings → Personal access tokens
-2. Click **"Tokens (classic)"**
-3. Click **"Generate new token (classic)"**
-4. Configure:
-   - **Name**: "TabNest Sync"
-   - **Expiration**: "No expiration" (or your preference)
-   - **Scopes**: Check only **`gist`** permission
-5. Click **"Generate token"**
-6. **Copy the token** immediately (you won't see it again)
+1. 前往 GitHub → 设置 → 开发者设置 → 个人访问令牌
+2. 点击 **"Tokens (classic)"**
+3. 点击 **"Generate new token (classic)"**
+4. 配置:
+   - **名称**: "TabNest Sync"
+   - **过期**: "No expiration"(或你的偏好)
+   - **范围**: 仅勾选 **`gist`** 权限
+5. 点击 **"Generate token"**
+6. **立即复制令牌**(你不会再看到它)
 
-### Step 2: Configure in TabNest
+### 步骤 2:在 TabNest 中配置
 
-1. Open TabNest → **Settings** (gear icon)
-2. Go to **Cloud Sync** section
-3. Click **"GitHub Gist"** tab
-4. Enter:
-   - **GitHub Token**: Paste your token
-   - **Gist Name**: (optional) Name for your gist, e.g., "tabnest-backup"
-5. Click **"Test Connection"**
-6. If successful, click **"Enable GitHub Sync"**
+1. 打开 TabNest → **设置**(齿轮图标)
+2. 前往 **云端同步** 部分
+3. 点击 **"GitHub Gist"** 标签
+4. 输入:
+   - **GitHub 令牌**: 粘贴你的令牌
+   - **Gist 名称**: (可选)为你的 gist 命名,例如 "tabnest-backup"
+5. 点击 **"测试连接"**
+6. 如果成功,点击 **"启用 GitHub 同步"**
 
-### Step 3: Sync Your Data
+### 步骤 3:同步你的数据
 
-**Manual Sync:**
-1. Click **"Sync Now"** button
-2. Wait for completion
-3. Check "Last sync time" to confirm
+**手动同步:**
+1. 点击 **"立即同步"** 按钮
+2. 等待完成
+3. 检查"上次同步时间"以确认
 
-**Auto-Sync:**
-1. Check **"Enable Auto-Sync"**
-2. Set sync interval (default: every 5 minutes)
-3. TabNest will automatically sync changes in background
+**自动同步:**
+1. 勾选 **"启用自动同步"**
+2. 设置同步间隔(默认:每 5 分钟)
+3. TabNest 将在后台自动同步更改
 
-## Setting Up WebDAV Sync
+## 设置 WebDAV 同步
 
-### For Jianguo Cloud (坚果云) Users
+### 对于坚果云用户
 
-#### Step 1: Enable WebDAV
+#### 步骤 1:启用 WebDAV
 
-1. Log in to [Jianguo Cloud](https://www.jianguoyun.com)
-2. Go to Account Settings → Security
-3. Find "WebDAV" section
-4. Click "Generate App Password"
-5. Copy the generated password
+1. 登录 [坚果云](https://www.jianguoyun.com)
+2. 前往账户设置 → 安全
+3. 找到"WebDAV"部分
+4. 点击"生成应用密码"
+5. 复制生成的密码
 
-#### Step 2: Get Server Address
+#### 步骤 2:获取服务器地址
 
-- Server address: `https://dav.jianguoyun.com/dav/`
-- Username: Your JiangUo Cloud email or ID
-- Password: The generated password from step 1
+- 服务器地址: `https://dav.jianguoyun.com/dav/`
+- 用户名: 你的坚果云邮箱或 ID
+- 密码: 步骤 1 中生成的密码
 
-#### Step 3: Configure in TabNest
+#### 步骤 3:在 TabNest 中配置
 
-1. Open TabNest → **Settings**
-2. Go to **Cloud Sync** → **WebDAV** tab
-3. Enter:
-   - **Server URL**: `https://dav.jianguoyun.com/dav/`
-   - **Username**: Your account email
-   - **Password**: Generated password
-   - **Path**: `/TabNest/` (or your preference)
-4. Click **"Test Connection"**
-5. If successful, click **"Enable WebDAV Sync"**
+1. 打开 TabNest → **设置**
+2. 前往 **云端同步** → **WebDAV** 标签
+3. 输入:
+   - **服务器 URL**: `https://dav.jianguoyun.com/dav/`
+   - **用户名**: 你的账户邮箱
+   - **密码**: 生成的密码
+   - **路径**: `/TabNest/`(或你的偏好)
+4. 点击 **"测试连接"**
+5. 如果成功,点击 **"启用 WebDAV 同步"**
 
-### For Nextcloud Users
+### 对于 Nextcloud 用户
 
-1. Get your Nextcloud server address (e.g., `https://cloud.example.com`)
-2. Create an app password:
-   - Settings → Security → App Passwords
-   - Create new app password
-3. Use app password in TabNest configuration
-4. Server URL: `https://cloud.example.com/remote.php/dav/`
-5. Enter your Nextcloud username and app password
+1. 获取你的 Nextcloud 服务器地址(例如:`https://cloud.example.com`)
+2. 创建应用密码:
+   - 设置 → 安全 → 应用密码
+   - 创建新的应用密码
+3. 在 TabNest 配置中使用应用密码
+4. 服务器 URL: `https://cloud.example.com/remote.php/dav/`
+5. 输入你的 Nextcloud 用户名和应用密码
 
-## Managing Cloud Sync
+## 管理云端同步
 
-### View Sync Status
+### 查看同步状态
 
-In Settings → Cloud Sync:
-- **Last Sync**: When sync last completed
-- **Status**: Success/Failed/In Progress
-- **Sync Count**: Total number of syncs performed
-- **File Size**: Size of your synced data
+在设置 → 云端同步中:
+- **上次同步**: 上次同步完成时间
+- **状态**: 成功/失败/进行中
+- **同步次数**: 执行的同步总次数
+- **文件大小**: 同步数据的大小
 
-### Manual Operations
+### 手动操作
 
-**Force Sync:**
-- Click **"Sync Now"** to sync immediately
+**强制同步:**
+- 点击 **"立即同步"** 立即同步
 
-**Download Latest:**
-- Click **"Restore from Cloud"** to get the latest version
+**下载最新版本:**
+- 点击 **"从云端恢复"** 获取最新版本
 
-**Upload Current:**
-- Click **"Upload Now"** to push your current data
+**上传当前数据:**
+- 点击 **"立即上传"** 推送当前数据
 
-### Disable/Remove Sync
+### 禁用/删除同步
 
-1. Go to Settings → Cloud Sync
-2. Click **"Disable [Provider]"**
-3. Confirm the action
-4. Your local data remains unchanged
+1. 前往设置 → 云端同步
+2. 点击 **"禁用 [提供商]"**
+3. 确认操作
+4. 你的本地数据保持不变
 
-## Conflict Resolution
+## 冲突解决
 
-If you edit tabs on multiple devices simultaneously:
+如果你同时在多个设备上编辑标签页:
 
-1. **Automatic**: TabNest uses timestamp-based resolution
-2. **Last-write wins**: The most recent change is kept
-3. **Backup**: Previous version is automatically backed up
-4. **Manual**: You can restore previous versions (see History)
+1. **自动**: TabNest 使用基于时间戳的解决方案
+2. **最后写入获胜**: 保留最近的更改
+3. **备份**: 自动备份以前的版本
+4. **手动**: 你可以恢复以前的版本(查看历史)
 
-## Backup & Restore
+## 备份与恢复
 
-### Create Backup
+### 创建备份
 
-1. Go to Settings → Data Management
-2. Click **"Export Data"**
-3. Choose format: JSON or CSV
-4. Save the file locally
-5. Keep backups safe
+1. 前往设置 → 数据管理
+2. 点击 **"导出数据"**
+3. 选择格式:JSON 或 CSV
+4. 在本地保存文件
+5. 保管好备份
 
-### Restore from Backup
+### 从备份恢复
 
-1. Go to Settings → Data Management
-2. Click **"Import Data"**
-3. Select your backup file
-4. Choose merge or replace option
-5. Click **"Restore"**
+1. 前往设置 → 数据管理
+2. 点击 **"导入数据"**
+3. 选择你的备份文件
+4. 选择合并或替换选项
+5. 点击 **"恢复"**
 
-### Restore from Cloud
+### 从云端恢复
 
-If you deleted data locally:
+如果你在本地删除了数据:
 
-1. Go to Settings → Cloud Sync
-2. Click **"Download Latest"** or **"Restore from Cloud"**
-3. Your cloud data is restored locally
+1. 前往设置 → 云端同步
+2. 点击 **"下载最新版本"** 或 **"从云端恢复"**
+3. 你的云端数据将恢复到本地
 
-## Privacy & Security
+## 隐私与安全
 
-### Data Encryption
+### 数据加密
 
-- **GitHub Gist**: Encrypted in transit (HTTPS)
-- **WebDAV**: Encrypted in transit (HTTPS)
-- **At rest**: Depends on your cloud provider
+- **GitHub Gist**: 传输中加密(HTTPS)
+- **WebDAV**: 传输中加密(HTTPS)
+- **静态加密**: 取决于你的云提供商
 
-### Best Practices
+### 最佳实践
 
-1. **Protect your tokens/passwords** - Treat like passwords
-2. **Use app passwords** - Not your main password
-3. **Enable two-factor** - On your cloud provider account
-4. **Regular backups** - Keep local JSON backups
-5. **Monitor sync** - Check sync status regularly
+1. **保护你的令牌/密码** - 像密码一样对待它们
+2. **使用应用密码** - 而不是你的主密码
+3. **启用双因素认证** - 在你的云提供商账户上
+4. **定期备份** - 保留本地 JSON 备份
+5. **监控同步** - 定期检查同步状态
 
-## Troubleshooting
+## 故障排除
 
-### Sync Failed
+### 同步失败
 
 **GitHub Gist:**
-- Check token validity
-- Verify token has `gist` permission
-- Check internet connection
-- Try manual sync
+- 检查令牌有效性
+- 验证令牌具有 `gist` 权限
+- 检查互联网连接
+- 尝试手动同步
 
 **WebDAV:**
-- Verify server URL is correct
-- Check username and password
-- Ensure WebDAV is enabled on server
-- Check server connectivity
+- 验证服务器 URL 是否正确
+- 检查用户名和密码
+- 确保服务器上启用了 WebDAV
+- 检查服务器连接性
 
-### Auth Failed
+### 认证失败
 
-- GitHub: Regenerate token
-- WebDAV: Verify credentials with provider
+- GitHub:重新生成令牌
+- WebDAV:与提供商验证凭据
 
-### File Too Large (GitHub)
+### 文件太大(GitHub)
 
-- GitHub Gist has 1MB limit
-- Clear old data or switch to WebDAV
-- Export and delete old Spaces
+- GitHub Gist 有 1MB 限制
+- 清除旧数据或切换到 WebDAV
+- 导出并删除旧空间
 
-## Advanced Tips
+## 高级技巧
 
-### Multiple Devices
+### 多设备
 
-1. Set up sync on Device A
-2. Configure same provider on Device B
-3. Device B automatically downloads existing data
-4. Changes sync bidirectionally
+1. 在设备 A 上设置同步
+2. 在设备 B 上配置相同的提供商
+3. 设备 B 自动下载现有数据
+4. 更改双向同步
 
-### Version History (GitHub)
+### 版本历史(GitHub)
 
-1. View your gist on GitHub (link in Settings)
-2. Check the "Revisions" tab
-3. See full history of your changes
-4. Can revert to any previous version manually
+1. 在 GitHub 上查看你的 gist(设置中的链接)
+2. 检查"Revisions"标签
+3. 查看你的更改的完整历史
+4. 可以手动还原到任何以前的版本
 
-### Self-Hosted WebDAV
+### 自托管 WebDAV
 
-For advanced users with their own server:
-1. Set up WebDAV server
-2. Use your server URL in TabNest
-3. Same configuration as third-party services
-4. Full control over your data
+对于拥有自己服务器的高级用户:
+1. 设置 WebDAV 服务器
+2. 在 TabNest 中使用你的服务器 URL
+3. 配置与第三方服务相同
+4. 完全控制你的数据

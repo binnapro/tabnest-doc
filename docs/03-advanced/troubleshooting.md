@@ -1,114 +1,114 @@
 ---
 sidebar_position: 4
-title: Troubleshooting
+title: 故障排除
 ---
 
-# Troubleshooting Guide
+# 故障排除指南
 
-Solutions to common TabNest issues.
+常见 TabNest 问题的解决方案。
 
-## Extension Not Showing
+## 扩展未显示
 
-### Check Installation
+### 检查安装
 
-1. Open `chrome://extensions`
-2. Search for "TabNest"
-3. Ensure it's enabled (toggle should be on)
-4. Refresh the page
+1. 打开 `chrome://extensions`
+2. 搜索"TabNest"
+3. 确保已启用(切换应处于打开状态)
+4. 刷新页面
 
-### Pin to Toolbar
+### 固定到工具栏
 
-1. Click extension icon in toolbar
-2. Click pin icon
-3. TabNest should now be visible
+1. 点击工具栏中的扩展图标
+2. 点击固定图标
+3. TabNest 现在应该可见
 
-## Tabs Not Saving
+## 标签页未保存
 
-### Check Permissions
+### 检查权限
 
-1. `chrome://extensions` → TabNest → Details
-2. Scroll to "Permissions"
-3. Ensure necessary permissions are granted
-4. Re-grant if needed
+1. `chrome://extensions` → TabNest → 详细信息
+2. 滚动到"权限"
+3. 确保授予了必要的权限
+4. 如有需要重新授予
 
-### Try Hard Refresh
+### 尝试强制刷新
 
-1. Close TabNest completely
-2. Close all browser windows
-3. Restart browser
-4. Try saving again
+1. 完全关闭 TabNest
+2. 关闭所有浏览器窗口
+3. 重启浏览器
+4. 再次尝试保存
 
-## Sync Not Working
+## 同步不工作
 
 ### GitHub Gist
 
-- Verify token validity
-- Token may have expired
-- Regenerate and update Settings
-- Check internet connection
+- 验证令牌有效性
+- 令牌可能已过期
+- 重新生成并更新设置
+- 检查互联网连接
 
 ### WebDAV
 
-- Verify server address is correct
-- Check username and password
-- Ensure WebDAV is enabled on server
-- Test connection in Settings
+- 验证服务器地址是否正确
+- 检查用户名和密码
+- 确保服务器上启用了 WebDAV
+- 在设置中测试连接
 
-## Data Lost
+## 数据丢失
 
-### Recovery Steps
+### 恢复步骤
 
-1. Check Cloud Sync → Download latest
-2. Import from local backup file
-3. Check browser's local storage
-4. Contact support with details
+1. 检查云端同步 → 下载最新版本
+2. 从本地备份文件导入
+3. 检查浏览器的本地存储
+4. 联系支持并提供详细信息
 
-## Performance Issues
+## 性能问题
 
-### Slow to Load
+### 加载缓慢
 
-- Disable auto-sync temporarily
-- Reduce number of open Spaces
-- Clear browser cache
-- Try different browser
+- 暂时禁用自动同步
+- 减少打开的空间数量
+- 清除浏览器缓存
+- 尝试不同的浏览器
 
-### Crashing
+### 崩溃
 
-- Clear extension cache
-- Disable and re-enable extension
-- Reinstall extension
-- Check browser version is up-to-date
+- 清除扩展缓存
+- 禁用并重新启用扩展
+- 重新安装扩展
+- 检查浏览器版本是否是最新的
 
-## AI Categorization Issues
+## AI 分类问题
 
-### No Response
+### 无响应
 
-- Check API key validity
-- Verify internet connection
-- Try different AI provider
-- Check API quota/billing
+- 检查 API 密钥有效性
+- 验证互联网连接
+- 尝试不同的 AI 提供商
+- 检查 API 配额/计费
 
-### Poor Results
+### 结果不佳
 
-- Ensure tabs have good titles
-- Try fewer tabs (10-20)
-- Refine custom prompt
-- Switch to different model
+- 确保标签页有良好的标题
+- 尝试较少的标签页(10-20 个)
+- 优化自定义提示
+- 切换到不同的模型
 
-## Data Privacy
+## 数据隐私
 
-### Can I Trust TabNest?
+### 我可以信任 TabNest 吗?
 
-- Open source codebase available
-- No tracking or analytics
-- All data stored locally by default
-- Cloud sync is encrypted
-- Read privacy policy for details
+- 开源代码库可供查阅
+- 无跟踪或分析
+- 默认情况下所有数据本地存储
+- 云同步已加密
+- 阅读隐私政策了解详情
 
-## Contact Support
+## 联系支持
 
-For issues not listed:
-- Visit GitHub Issues
-- Search for similar issues
-- Provide detailed description
-- Include browser version and extension version
+对于未列出的问题:
+- 访问 GitHub Issues
+- 搜索类似问题
+- 提供详细描述
+- 包括浏览器版本和扩展版本

@@ -1,85 +1,85 @@
 ---
 sidebar_position: 6
-title: Global Search
+title: 全局搜索
 ---
 
-# Global Search - Find Any Tab Instantly
+# 全局搜索 - 即时查找任何标签页
 
-TabNest's powerful global search feature lets you find any saved tab across all your Spaces and Tab Groups in seconds.
+TabNest 强大的全局搜索功能让你可以在几秒钟内找到所有空间和标签组中的任何已保存标签页。
 
-## Opening the Search
+## 打开搜索
 
-### Keyboard Shortcut
+### 键盘快捷键
 
-Press **Cmd+F** (Mac) or **Ctrl+F** (Windows/Linux) to open the search dialog.
+按 **Cmd+F**(Mac)或 **Ctrl+F**(Windows/Linux)打开搜索对话框。
 
-### Using the Search Button
+### 使用搜索按钮
 
-1. Open TabNest dashboard
-2. Click the **🔍 Search** button in the top toolbar
-3. Start typing to search
+1. 打开 TabNest 仪表盘
+2. 点击顶部工具栏中的 **🔍 搜索** 按钮
+3. 开始输入以搜索
 
-## How to Search
+## 如何搜索
 
-Simply type keywords and TabNest will search:
-- **Tab titles** - The name of the website or page
-- **URLs** - The web address
-- **Both** - Matching against either title or URL
+只需输入关键词,TabNest 将搜索:
+- **标签页标题** - 网站或页面的名称
+- **URL** - 网址
+- **两者** - 匹配标题或 URL
 
-## Search Tips
+## 搜索技巧
 
-### Basic Search
+### 基本搜索
 
-Type a simple keyword:
-- `react` - Find all tabs related to React
-- `api` - Find API documentation
-- `github` - Find GitHub links
+输入简单的关键词:
+- `react` - 查找所有与 React 相关的标签页
+- `api` - 查找 API 文档
+- `github` - 查找 GitHub 链接
 
-### Advanced Search
+### 高级搜索
 
-You can combine multiple keywords:
-- `react tutorial` - Find tabs containing both "react" and "tutorial"
-- Use spaces to add more conditions
+你可以组合多个关键词:
+- `react tutorial` - 查找同时包含"react"和"tutorial"的标签页
+- 使用空格添加更多条件
 
-### Search Results
+### 搜索结果
 
-Results appear instantly as you type:
-- Click any result to open the tab
-- See which Space and Group the tab is in
-- Multiple matches are ranked by relevance
+结果在你输入时即时出现:
+- 点击任何结果以打开标签页
+- 查看标签页所在的空间和分组
+- 多个匹配项按相关性排序
 
-## Search Filters (Advanced)
+## 搜索过滤器(高级)
 
-In Settings, you can configure:
-- **Search scope** - Search all Spaces or current Space only
-- **Case sensitivity** - Match exact capitalization
-- **URL only** - Search only URLs, not titles
+在设置中,你可以配置:
+- **搜索范围** - 搜索所有空间或仅当前空间
+- **区分大小写** - 匹配确切的大小写
+- **仅 URL** - 仅搜索 URL,不搜索标题
 
-## Tips & Tricks
+## 技巧与诀窍
 
-### Finding Duplicates
+### 查找重复项
 
-If you have duplicate tabs:
-1. Search for a unique part of the URL
-2. Check if multiple results appear
-3. Delete duplicates to clean up
+如果你有重复的标签页:
+1. 搜索 URL 的唯一部分
+2. 检查是否出现多个结果
+3. 删除重复项以清理
 
-### Quick Navigation
+### 快速导航
 
-Use search as a quick way to navigate:
-- Don't remember which Space something is in?
-- Search for it instead of manually browsing
-- Click the result to jump there
+使用搜索作为快速导航方式:
+- 不记得某个内容在哪个空间?
+- 搜索它而不是手动浏览
+- 点击结果跳转到那里
 
-### Organizing by Search
+### 通过搜索组织
 
-After searching, you can:
-- Bulk select search results
-- Move them to a different Group
-- Delete them all at once
+搜索后,你可以:
+- 批量选择搜索结果
+- 将它们移动到不同的分组
+- 一次性删除它们
 
-## Limitations
+## 限制
 
-- Search is case-insensitive by default
-- Searches the last 100 characters of URL
-- Can't search by metadata (date, color, etc.)
+- 默认情况下搜索不区分大小写
+- 搜索 URL 的最后 100 个字符
+- 无法按元数据(日期、颜色等)搜索

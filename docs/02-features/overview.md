@@ -1,41 +1,41 @@
 ---
 sidebar_position: 1
-title: Features Overview
+title: 功能概览
 ---
 
-# TabNest Features
+# TabNest 功能
 
-Discover all the powerful features that make TabNest an essential productivity tool.
+探索让 TabNest 成为必备生产力工具的所有强大功能。
 
-## Core Features
+## 核心功能
 
-### 🗂️ Spaces
-Organize your tabs into multiple independent workspaces, each with its own set of tab groups.
+### 🗂️ 空间管理
+将你的标签页组织到多个独立的工作空间中,每个空间都有自己的标签组集合。
 
-### 📦 Tab Groups
-Create and manage collections of related tabs with custom colors and icons.
+### 📦 标签组
+创建和管理相关标签页的集合,支持自定义颜色和图标。
 
-### 🤖 AI-Powered Categorization
-Let AI automatically organize your tabs into meaningful categories using advanced language models.
+### 🤖 AI 智能分类
+让 AI 使用先进的语言模型自动将你的标签页整理到有意义的分类中。
 
-### ☁️ Cloud Sync
-Keep your tab collection in sync across devices with GitHub Gist or WebDAV.
+### ☁️ 云端同步
+使用 GitHub Gist 或 WebDAV 在设备之间保持标签集合同步。
 
-### 🔍 Global Search
-Search across all your saved tabs instantly.
+### 🔍  全局搜索
+即时搜索所有已保存的标签页。
 
-### 🎨 Theme System
-Choose from light, dark, or system-preferred theme modes.
+### 🎨 主题系统
+从浅色、深色或系统偏好主题模式中选择。
 
-### 🌍 Multi-language Support
-Available in English and Simplified Chinese.
+### 🌍 多语言支持
+提供英文和简体中文版本。
 
-## Learn More
+## 了解更多
 
-Explore each feature in detail:
-- [Spaces Management](./spaces)
-- [Tab Groups](./tab-groups)
-- [AI Categorization](./ai-classify)
-- [Cloud Sync](./cloud-sync)
-- [Search](./search)
-- [Themes](./themes)
+深入探索每个功能:
+- [空间管理](./spaces)
+- [标签组](./tab-groups)
+- [AI 智能分类](./ai-classify)
+- [云端同步](./cloud-sync)
+- [全局搜索](./search)
+- [主题](./themes)

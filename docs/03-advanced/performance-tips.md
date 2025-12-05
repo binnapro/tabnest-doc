@@ -1,86 +1,86 @@
 ---
 sidebar_position: 3
-title: Performance Tips
+title: 性能优化技巧
 ---
 
-# Performance Optimization Tips
+# 性能优化技巧
 
-Keep TabNest running smoothly with these optimization strategies.
+使用这些优化策略保持 TabNest 流畅运行。
 
-## Managing Large Collections
+## 管理大型集合
 
-### Archive Old Spaces
+### 归档旧空间
 
-- Move completed projects to "Archive" Space
-- Keeps active view cleaner and faster
-- Archive Space can be hidden from main view
+- 将完成的项目移动到"归档"空间
+- 保持活跃视图更清晰和更快
+- 归档空间可以从主视图隐藏
 
-### Delete Duplicates
+### 删除重复项
 
-- Use search to find duplicate tabs
-- Bulk delete to free up space
-- Run search for duplicate URLs
+- 使用搜索查找重复的标签页
+- 批量删除以释放空间
+- 运行搜索以查找重复的 URL
 
-### Compress Groups
+### 压缩分组
 
-- Collapse inactive groups
-- Delete unused groups regularly
-- Keep active groups under 50 tabs each
+- 折叠不活跃的分组
+- 定期删除未使用的分组
+- 将活跃分组保持在每个 50 个标签页以下
 
-## Browser Performance
+## 浏览器性能
 
-### Clear Cache
+### 清除缓存
 
-1. Open TabNest → Settings
-2. Go to Data Management
-3. Click "Clear Cache"
-4. Restart browser
+1. 打开 TabNest → 设置
+2. 前往数据管理
+3. 点击"清除缓存"
+4. 重启浏览器
 
-### Disable Auto-Sync (If Needed)
+### 禁用自动同步(如有需要)
 
-- If sync is slowing things down:
-1. Settings → Cloud Sync
-2. Disable auto-sync
-3. Manually sync when needed
+- 如果同步拖慢速度:
+1. 设置 → 云端同步
+2. 禁用自动同步
+3. 在需要时手动同步
 
-### Reduce AI Requests
+### 减少 AI 请求
 
-- Don't categorize massive tab collections
-- Batch categorize 10-20 tabs at a time
-- Wait between categorization sessions
+- 不要对大量标签页集合进行分类
+- 每次批量分类 10-20 个标签页
+- 在分类会话之间等待
 
-## System Resources
+## 系统资源
 
-### Memory Usage
+### 内存使用
 
-- TabNest typically uses less than 50MB RAM
-- Close unused Spaces to reduce memory
-- Restart browser weekly if memory high
+- TabNest 通常使用少于 50MB RAM
+- 关闭未使用的空间以减少内存
+- 如果内存较高,每周重启浏览器
 
-### CPU Usage
+### CPU 使用
 
-- Heavy searching can spike CPU temporarily
-- Sort operations are optimized
-- Wait for current operation to complete
+- 大量搜索可能会暂时增加 CPU 使用
+- 排序操作已优化
+- 等待当前操作完成
 
-## Browser Storage
+## 浏览器存储
 
-### Check Available Space
+### 检查可用空间
 
-- Settings → Storage Usage
-- Browser storage typically 50-100MB
-- Export and delete if running low
+- 设置 → 存储使用情况
+- 浏览器存储通常为 50-100MB
+- 如果空间不足,导出并删除
 
-### Multiple Browsers
+### 多个浏览器
 
-- TabNest uses browser-specific storage
-- Each browser has separate copy
-- Sync between browsers with cloud sync
+- TabNest 使用浏览器特定的存储
+- 每个浏览器都有单独的副本
+- 使用云同步在浏览器之间同步
 
-## Best Practices
+## 最佳实践
 
-1. **Regular maintenance** - Delete unused items monthly
-2. **Use search** - Don't browse manually through huge lists
-3. **Archive projects** - Move old work to separate Space
-4. **Batch operations** - Do multiple actions together
-5. **Monitor storage** - Check usage regularly
+1. **定期维护** - 每月删除未使用的项目
+2. **使用搜索** - 不要手动浏览大量列表
+3. **归档项目** - 将旧工作移动到单独的空间
+4. **批量操作** - 一起执行多个操作
+5. **监控存储** - 定期检查使用情况

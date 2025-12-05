@@ -1,142 +1,142 @@
 ---
 sidebar_position: 2
-title: Data Management & Import/Export
+title: 数据管理与导入/导出
 ---
 
-# Data Management & Import/Export
+# 数据管理与导入/导出
 
-Learn how to backup, restore, import, and export your TabNest data.
+了解如何备份、恢复、导入和导出你的 TabNest 数据。
 
-## Exporting Your Data
+## 导出数据
 
-### Export to JSON
+### 导出为 JSON
 
-1. Open TabNest → Settings
-2. Go to **Data Management** section
-3. Click **"Export Data"**
-4. Select **JSON** format
-5. Choose save location
-6. File will contain all your Spaces, Groups, and Tabs
+1. 打开 TabNest → 设置
+2. 前往 **数据管理** 部分
+3. 点击 **"导出数据"**
+4. 选择 **JSON** 格式
+5. 选择保存位置
+6. 文件将包含你所有的空间、分组和标签页
 
-### Export to CSV
+### 导出为 CSV
 
-1. Follow steps 1-4 above
-2. Select **CSV** format
-3. Each tab becomes one row
-4. Useful for data analysis or importing elsewhere
+1. 按照上述步骤 1-4
+2. 选择 **CSV** 格式
+3. 每个标签页成为一行
+4. 适用于数据分析或导入到其他地方
 
-### What Gets Exported
+### 导出的内容
 
-- ✅ All Spaces and their settings
-- ✅ All Tab Groups with colors/icons
-- ✅ All saved tabs (URLs, titles, timestamps)
-- ✅ Settings and preferences
-- ❌ Cloud sync credentials (for security)
+- ✅ 所有空间及其设置
+- ✅ 所有标签组及颜色/图标
+- ✅ 所有已保存的标签页(URL、标题、时间戳)
+- ✅ 设置和偏好
+- ❌ 云同步凭据(出于安全考虑)
 
-## Importing Data
+## 导入数据
 
-### From Backup File
+### 从备份文件导入
 
-1. Open TabNest → Settings
-2. Go to **Data Management**
-3. Click **"Import Data"**
-4. Select your JSON or CSV file
-5. Choose import mode:
-   - **Merge** - Add to existing data
-   - **Replace** - Overwrite all data
-6. Click **"Import"**
+1. 打开 TabNest → 设置
+2. 前往 **数据管理**
+3. 点击 **"导入数据"**
+4. 选择你的 JSON 或 CSV 文件
+5. 选择导入模式:
+   - **合并** - 添加到现有数据
+   - **替换** - 覆盖所有数据
+6. 点击 **"导入"**
 
-### From Other Tab Managers
+### 从其他标签管理器导入
 
-If exporting from another extension:
-1. Export from that extension
-2. Convert to JSON if needed
-3. Import to TabNest
+如果从其他扩展导出:
+1. 从该扩展导出
+2. 如有需要转换为 JSON
+3. 导入到 TabNest
 
-## Backup Strategies
+## 备份策略
 
-### Manual Backups
+### 手动备份
 
-- **Frequency**: Monthly recommended
-- **Storage**: Keep in secure cloud (Google Drive, Dropbox)
-- **Multiple copies**: Keep 2-3 recent backups
-- **Testing**: Periodically test restoring to verify integrity
+- **频率**: 建议每月一次
+- **存储**: 保存在安全的云端(Google Drive、Dropbox)
+- **多份副本**: 保留 2-3 个最近的备份
+- **测试**: 定期测试恢复以验证完整性
 
-### Automatic Backups
+### 自动备份
 
-- Enable cloud sync (GitHub Gist or WebDAV)
-- TabNest creates automatic backups
-- Accessible from Settings → Cloud Sync
+- 启用云同步(GitHub Gist 或 WebDAV)
+- TabNest 创建自动备份
+- 可从设置 → 云端同步访问
 
-### Emergency Recovery
+### 紧急恢复
 
-If disaster strikes:
-1. Check Settings → Cloud Sync for cloud version
-2. Download latest backup
-3. Import to TabNest
-4. Verify all data is recovered
+如果发生灾难:
+1. 检查设置 → 云端同步以获取云版本
+2. 下载最新备份
+3. 导入到 TabNest
+4. 验证所有数据已恢复
 
-## Storage Usage
+## 存储使用
 
-### Check Storage
+### 检查存储
 
-1. Open TabNest Settings
-2. Look at **Storage Usage** indicator
-3. Shows:
-   - Total tabs stored
-   - Approximate storage used
-   - Breakdown by Space
+1. 打开 TabNest 设置
+2. 查看 **存储使用情况** 指示器
+3. 显示:
+   - 已存储的标签页总数
+   - 大约使用的存储空间
+   - 按空间细分
 
-### Optimize Storage
+### 优化存储
 
-- Delete unused Spaces and Groups
-- Remove duplicate tabs
-- Archive old projects to separate Space
-- Keep only actively-used tabs
+- 删除未使用的空间和分组
+- 删除重复的标签页
+- 将旧项目归档到单独的空间
+- 只保留活跃使用的标签页
 
-### Storage Limits
+### 存储限制
 
-- **Local**: Limited by browser cache (typically 50MB+)
-- **GitHub Gist**: 1MB per gist
-- **WebDAV**: Depends on your provider
+- **本地**: 受浏览器缓存限制(通常 50MB+)
+- **GitHub Gist**: 每个 gist 1MB
+- **WebDAV**: 取决于你的提供商
 
-## Data Privacy
+## 数据隐私
 
-### What's Stored Locally
+### 本地存储的内容
 
-- Your Spaces, Groups, Tabs
-- Settings and preferences
-- Cloud sync credentials (encrypted)
-- Cache and temporary data
+- 你的空间、分组、标签页
+- 设置和偏好
+- 云同步凭据(已加密)
+- 缓存和临时数据
 
-### What's Sent to Cloud
+### 发送到云端的内容
 
-If you enable cloud sync:
-- All your Spaces, Groups, Tabs
-- NOT your API keys for AI (stored locally only)
-- NOT your passwords (just URLs and titles)
+如果启用云同步:
+- 所有你的空间、分组、标签页
+- 不包括你的 AI API 密钥(仅本地存储)
+- 不包括你的密码(只有 URL 和标题)
 
-### What's Never Sent
+### 从不发送的内容
 
-- Your browsing history
-- Your passwords
-- Your personal information
-- Your AI API keys
+- 你的浏览历史
+- 你的密码
+- 你的个人信息
+- 你的 AI API 密钥
 
-## Advanced: Database Repair
+## 高级:数据库修复
 
-If data seems corrupted:
+如果数据似乎损坏:
 
-1. Open Settings → Data Management
-2. Click **"Repair Database"**
-3. TabNest will:
-   - Scan for corrupted entries
-   - Remove invalid data
-   - Rebuild indexes
-   - Create automatic backup first
+1. 打开设置 → 数据管理
+2. 点击 **"修复数据库"**
+3. TabNest 将:
+   - 扫描损坏的条目
+   - 删除无效数据
+   - 重建索引
+   - 首先创建自动备份
 
-4. If still having issues:
-   - Export data
-   - Clear all data
-   - Import from backup
-   - Restart TabNest
+4. 如果仍有问题:
+   - 导出数据
+   - 清除所有数据
+   - 从备份导入
+   - 重启 TabNest

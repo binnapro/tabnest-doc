@@ -1,192 +1,192 @@
 ---
 sidebar_position: 4
-title: AI-Powered Tab Categorization
+title: AI 智能分类
 ---
 
-# AI Smart Categorization
+# AI 智能分类
 
-TabNest features intelligent AI-powered tab categorization that can automatically organize your tabs into meaningful groups. This is perfect for those moments when you have dozens of open tabs and need help bringing order to the chaos.
+TabNest 提供智能 AI 驱动的标签页分类功能,可以自动将你的标签页整理成有意义的分组。这对于那些拥有数十个打开的标签页并需要帮助恢复秩序的时刻来说是完美的。
 
-## How It Works
+## 工作原理
 
-The AI categorization system uses advanced language models to:
-1. Read the title and URL of each tab
-2. Understand the content and purpose
-3. Suggest logical groupings and names
-4. Create organized tab groups automatically
+AI 分类系统使用先进的语言模型来:
+1. 读取每个标签页的标题和 URL
+2. 理解内容和目的
+3. 建议逻辑分组和名称
+4. 自动创建有组织的标签组
 
-## Supported AI Providers
+## 支持的 AI 提供商
 
 ### 1. Claude (Anthropic)
-- **Model**: `claude-sonnet-4-5-20250929`
-- **Setup**: Requires Anthropic API key
-- **Best for**: High-quality, context-aware categorization
-- **Cost**: Pay-per-token
+- **模型**: `claude-sonnet-4-5-20250929`
+- **设置**: 需要 Anthropic API 密钥
+- **最适合**: 高质量、上下文感知的分类
+- **费用**: 按令牌付费
 
-### 2. OpenAI Compatible Services
-- **Default**: SiliconFlow GLM-4.5-Air
-- **Setup**: Provide API endpoint URL
-- **Best for**: Cost-effective, reliable
-- **Supports**: Custom endpoints (Local LLMs, Ollama, etc.)
+### 2. OpenAI 兼容服务
+- **默认**: SiliconFlow GLM-4.5-Air
+- **设置**: 提供 API 端点 URL
+- **最适合**: 经济实惠、可靠
+- **支持**: 自定义端点(本地 LLM、Ollama 等)
 
-### 3. Alibaba Cloud Bailian
-- **Model**: `qwen-plus-latest`
-- **Setup**: Requires Bailian API key
-- **Best for**: Chinese content
-- **Cost**: Pay-per-token
+### 3. 阿里云百炼
+- **模型**: `qwen-plus-latest`
+- **设置**: 需要百炼 API 密钥
+- **最适合**: 中文内容
+- **费用**: 按令牌付费
 
-## Setting Up AI Categorization
+## 设置 AI 分类
 
-### Step 1: Get an API Key
+### 步骤 1:获取 API 密钥
 
-**For Claude (Recommended):**
-1. Visit [Anthropic Console](https://console.anthropic.com)
-2. Sign up for an account
-3. Create an API key
-4. Copy the key
+**对于 Claude(推荐):**
+1. 访问 [Anthropic Console](https://console.anthropic.com)
+2. 注册账户
+3. 创建 API 密钥
+4. 复制密钥
 
-**For OpenAI-Compatible Services:**
-1. Visit [SiliconFlow](https://siliconflow.cn) or use your own service
-2. Create an account
-3. Get your API key
-4. Note the API endpoint URL
+**对于 OpenAI 兼容服务:**
+1. 访问 [SiliconFlow](https://siliconflow.cn) 或使用你自己的服务
+2. 创建账户
+3. 获取 API 密钥
+4. 记下 API 端点 URL
 
-### Step 2: Configure in TabNest
+### 步骤 2:在 TabNest 中配置
 
-1. Click TabNest icon → **Settings** (gear icon)
-2. Navigate to **AI Configuration**
-3. Click **"+ Add AI Provider"**
-4. Fill in:
-   - **Provider**: Select from dropdown
-   - **API Key**: Paste your key
-   - **Model ID**: (auto-filled, can modify)
-   - **API URL**: (for OpenAI-compatible only)
-5. Click **"Test Connection"** to verify
-6. Click **"Save"**
+1. 点击 TabNest 图标 → **设置**(齿轮图标)
+2. 导航到 **AI 配置**
+3. 点击 **"+ 添加 AI 提供商"**
+4. 填写:
+   - **提供商**: 从下拉列表中选择
+   - **API 密钥**: 粘贴你的密钥
+   - **模型 ID**: (自动填充,可修改)
+   - **API URL**: (仅适用于 OpenAI 兼容)
+5. 点击 **"测试连接"** 进行验证
+6. 点击 **"保存"**
 
-### Step 3: Select Default Provider
+### 步骤 3:选择默认提供商
 
-1. In Settings → AI Configuration
-2. Find your configured provider
-3. Click the **radio button** to set as default
-4. Multiple providers? No problem—you can switch anytime
+1. 在设置 → AI 配置中
+2. 找到你配置的提供商
+3. 点击 **单选按钮** 设置为默认
+4. 有多个提供商?没问题——你可以随时切换
 
-## Using AI Categorization
+## 使用 AI 分类
 
-### Basic Usage
+### 基本用法
 
-1. Save multiple tabs you want to organize
-2. Click the **⚡ AI Smart Categorize** button (lightning icon)
-3. Click **"Start Categorization"**
-4. Watch as the AI:
-   - Analyzes your tabs
-   - Streams suggestions in real-time
-   - Creates tab groups automatically
-5. Review the results:
-   - Accept the categorization → **"Apply"**
-   - Reject and try again → **"Cancel"**
+1. 保存多个你想要整理的标签页
+2. 点击 **⚡ AI 智能分类** 按钮(闪电图标)
+3. 点击 **"开始分类"**
+4. 观看 AI:
+   - 分析你的标签页
+   - 实时流式传输建议
+   - 自动创建标签组
+5. 审查结果:
+   - 接受分类 → **"应用"**
+   - 拒绝并重试 → **"取消"**
 
-### Real-Time Streaming
+### 实时流式传输
 
-The AI responses stream in real-time, so you see results appearing as they're generated. This is especially impressive with complex tab collections.
+AI 响应以实时流式传输,因此你可以看到结果在生成时出现。这在处理复杂的标签页集合时尤其令人印象深刻。
 
-### Manual Review Before Applying
+### 应用前手动审查
 
-Before the categorization is finalized, you can:
-- **Edit group names** - Click to rename groups
-- **Reorganize tabs** - Drag tabs between suggested groups
-- **Merge groups** - Combine similar groups
-- **Split groups** - Separate large groups
+在分类最终确定之前,你可以:
+- **编辑分组名称** - 点击重命名分组
+- **重新组织标签页** - 在建议的分组之间拖动标签页
+- **合并分组** - 合并相似的分组
+- **拆分分组** - 分离大分组
 
-Then click **"Apply"** to finalize.
+然后点击 **"应用"** 以完成。
 
-## Advanced Features
+## 高级功能
 
-### Categorization Tips
+### 分类技巧
 
-For best results:
-- **Use descriptive page titles** - Sites with good titles categorize better
-- **Group related tabs** - Don't mix completely different topics
-- **Use multiple calls** - If results aren't perfect, refine and try again
-- **Provide context** - Add a note about the project if needed
+为获得最佳结果:
+- **使用描述性页面标题** - 具有良好标题的网站分类效果更好
+- **分组相关标签页** - 不要混合完全不同的主题
+- **使用多次调用** - 如果结果不完美,优化并重试
+- **提供上下文** - 如果需要,添加关于项目的说明
 
-### Custom Prompts
+### 自定义提示
 
-Some providers allow custom categorization prompts:
-1. Go to Settings → AI Configuration
-2. Find your provider
-3. Look for "Custom Prompt" option
-4. Edit to specify your preferences:
-   - "Group by technology stack"
-   - "Group by urgency"
-   - "Group by document type"
+某些提供商允许自定义分类提示:
+1. 前往设置 → AI 配置
+2. 找到你的提供商
+3. 查找"自定义提示"选项
+4. 编辑以指定你的偏好:
+   - "按技术栈分组"
+   - "按紧急程度分组"
+   - "按文档类型分组"
 
-### Undo/Rollback
+### 撤销/回滚
 
-If you don't like the categorization:
-1. TabNest automatically creates a backup before applying changes
-2. Go to Settings → Data Management
-3. Click **"Undo Last AI Categorization"**
-4. Your previous tab organization is restored
+如果你不喜欢分类结果:
+1. TabNest 在应用更改前会自动创建备份
+2. 前往设置 → 数据管理
+3. 点击 **"撤销上次 AI 分类"**
+4. 你之前的标签页组织将被恢复
 
-## Privacy & Security
+## 隐私与安全
 
-### Data Handling
+### 数据处理
 
-- **Your data**: Only tab titles and URLs are sent to AI providers
-- **Not stored**: TabNest doesn't store categorization history
-- **Your control**: You can review and modify results before applying
-- **Local first**: All categorization happens after your approval
+- **你的数据**: 仅将标签页标题和 URL 发送到 AI 提供商
+- **不存储**: TabNest 不存储分类历史
+- **你的控制**: 你可以在应用前审查和修改结果
+- **本地优先**: 所有分类在你批准后才会发生
 
-### API Keys
+### API 密钥
 
-- **Encrypted**: API keys are encrypted locally
-- **Never shared**: Keys are never sent to TabNest servers
-- **Full control**: You manage your own API keys and billing
+- **加密**: API 密钥在本地加密
+- **从不共享**: 密钥从不发送到 TabNest 服务器
+- **完全控制**: 你管理自己的 API 密钥和计费
 
-## Cost Considerations
+## 成本考虑
 
-### Pricing Comparison
+### 价格比较
 
-| Provider | Cost Model | Typical Cost |
+| 提供商 | 成本模式 | 典型成本 |
 |----------|-----------|-------------|
-| Claude | $0.003-0.03 per 1K tokens | $0.05-0.15 per categorization |
-| SiliconFlow (OpenAI-compatible) | $0.002 per 1K input tokens | $0.01-0.05 per categorization |
-| Bailian | Pay-per-call | $0.01-0.05 per call |
+| Claude | $0.003-0.03 每 1K 令牌 | $0.05-0.15 每次分类 |
+| SiliconFlow (OpenAI 兼容) | $0.002 每 1K 输入令牌 | $0.01-0.05 每次分类 |
+| 百炼 | 按调用付费 | $0.01-0.05 每次调用 |
 
-### Tips for Cost Control
+### 成本控制技巧
 
-1. **Batch categorizations** - Do multiple tabs at once
-2. **Monitor usage** - Check your provider's dashboard regularly
-3. **Use local LLMs** - For advanced users: run local models via Ollama
-4. **Test first** - Use a small tab set before large operations
+1. **批量分类** - 一次处理多个标签页
+2. **监控使用情况** - 定期检查提供商的仪表板
+3. **使用本地 LLM** - 对于高级用户:通过 Ollama 运行本地模型
+4. **先测试** - 在大规模操作前使用小标签集
 
-## Troubleshooting
+## 故障排除
 
-### Connection Failed
+### 连接失败
 
-- Check your internet connection
-- Verify API key is correct
-- Ensure API key has proper permissions
-- Try a different provider
+- 检查你的互联网连接
+- 验证 API 密钥是否正确
+- 确保 API 密钥具有适当的权限
+- 尝试不同的提供商
 
-### Poor Categorization Results
+### 分类结果不佳
 
-- Ensure tabs have good titles
-- Try with fewer tabs (10-20 for best results)
-- Adjust the custom prompt if available
-- Switch to a different AI model
+- 确保标签页有良好的标题
+- 尝试较少的标签页(10-20 个效果最好)
+- 如果可用,调整自定义提示
+- 切换到不同的 AI 模型
 
-### Rate Limited
+### 速率限制
 
-- You've hit your provider's rate limit
-- Wait a few minutes before retrying
-- Consider upgrading your API plan
-- Use a different provider
+- 你已达到提供商的速率限制
+- 等待几分钟后重试
+- 考虑升级你的 API 计划
+- 使用不同的提供商
 
-## Best Practices
+## 最佳实践
 
-1. **Regular maintenance** - Use AI monthly to reorganize growing collections
-2. **Manual refinement** - Adjust AI results to your preferences
-3. **Keep backups** - Create manual backups before major categorizations
-4. **Mix with manual** - Combine AI with manual organization for best results
+1. **定期维护** - 每月使用 AI 重新组织不断增长的集合
+2. **手动优化** - 根据你的偏好调整 AI 结果
+3. **保持备份** - 在主要分类前创建手动备份
+4. **结合手动** - 将 AI 与手动组织结合以获得最佳结果

@@ -1,103 +1,103 @@
 ---
 sidebar_position: 7
-title: Themes & Appearance
+title: 主题与外观
 ---
 
-# Themes & Appearance
+# 主题与外观
 
-Customize TabNest's appearance to match your preferences with multiple theme options.
+自定义 TabNest 的外观以匹配你的偏好,提供多种主题选项。
 
-## Available Themes
+## 可用主题
 
-### Light Mode
+### 浅色模式
 
-- Clean, bright interface
-- Best for daytime use
-- High contrast text
-- Easy on the eyes in bright environments
+- 简洁明亮的界面
+- 最适合白天使用
+- 高对比度文本
+- 在明亮环境中对眼睛友好
 
-### Dark Mode
+### 深色模式
 
-- Modern dark interface
-- Reduces eye strain in low-light environments
-- Great for extended use
-- Professional appearance
+- 现代深色界面
+- 减少在低光环境中的眼睛疲劳
+- 适合长时间使用
+- 专业外观
 
-### System Theme
+### 系统主题
 
-- Automatically follows your system settings
-- Light during the day, dark at night (on supported systems)
-- Changes when you switch system preferences
-- Seamless integration with your OS
+- 自动跟随你的系统设置
+- 白天浅色,晚上深色(在支持的系统上)
+- 当你切换系统偏好时更改
+- 与操作系统无缝集成
 
-## Changing Your Theme
+## 更改主题
 
-### Method 1: Quick Toggle
+### 方法 1:快速切换
 
-1. Open TabNest dashboard
-2. Look for the **🌙/☀️ Theme** button in the top-right corner
-3. Click to cycle through themes
+1. 打开 TabNest 仪表盘
+2. 在右上角寻找 **🌙/☀️ 主题** 按钮
+3. 点击以循环切换主题
 
-### Method 2: Settings
+### 方法 2:设置
 
-1. Open **Settings** (gear icon)
-2. Go to **Appearance** section
-3. Select your preferred theme
-4. Click **"Save"**
+1. 打开 **设置**(齿轮图标)
+2. 前往 **外观** 部分
+3. 选择你喜欢的主题
+4. 点击 **"保存"**
 
-## Customization Options
+## 自定义选项
 
-### Text Size
+### 文本大小
 
-In Settings → Appearance:
-- **Small** - More content visible
-- **Medium** - Default, balanced
-- **Large** - Easier to read
+在设置 → 外观中:
+- **小** - 显示更多内容
+- **中** - 默认,平衡
+- **大** - 更易阅读
 
-### Accent Color
+### 强调色
 
-(If available in your version)
-- Choose your preferred accent color
-- Affects buttons, links, and highlights
-- Options: Blue, Purple, Green, Orange, Red
+(如果在你的版本中可用)
+- 选择你喜欢的强调色
+- 影响按钮、链接和高亮
+- 选项:蓝色、紫色、绿色、橙色、红色
 
-### Sidebar Width
+### 侧边栏宽度
 
-- Adjust sidebar width for better fit
-- Drag the sidebar edge to resize
-- Auto-collapses on small screens
+- 调整侧边栏宽度以更好地适应
+- 拖动侧边栏边缘以调整大小
+- 在小屏幕上自动折叠
 
-## Dark Mode Benefits
+## 深色模式的好处
 
-- **Reduces blue light** - Less strain on eyes
-- **Saves battery** - On OLED screens
-- **Modern appearance** - Professional look
-- **Better at night** - Easier on vision
+- **减少蓝光** - 减少眼睛疲劳
+- **节省电池** - 在 OLED 屏幕上
+- **现代外观** - 专业外观
+- **夜间更好** - 对视力更轻松
 
-## System Integration
+## 系统集成
 
 ### Mac (macOS)
 
-- Respects your system appearance settings
-- Changes with time of day (if enabled)
-- Integrates with Night Shift
-- Follows your Accessibility preferences
+- 尊重你的系统外观设置
+- 随时间变化(如果启用)
+- 与夜览集成
+- 遵循你的辅助功能偏好
 
 ### Windows
 
-- Follows Windows Settings → Personalization → Colors
-- Respects light/dark mode preference
-- Updates automatically with system changes
+- 遵循 Windows 设置 → 个性化 → 颜色
+- 尊重浅色/深色模式偏好
+- 随系统更改自动更新
 
 ### Linux
 
-- Follows GTK theme settings
-- Respects GNOME appearance settings
-- Manual override available in Settings
+- 遵循 GTK 主题设置
+- 尊重 GNOME 外观设置
+- 可在设置中手动覆盖
 
-## Tips
+## 技巧
 
-- **For productivity**: Use Light mode during day, Dark at night
-- **For gaming**: Dark mode reduces distractions
-- **For presentations**: Use what's most comfortable for you
-- **For accessibility**: Adjust text size as needed
+- **提高生产力**:白天使用浅色模式,晚上使用深色模式
+- **玩游戏时**:深色模式减少干扰
+- **演示时**:使用你最舒适的模式
+- **辅助功能**:根据需要调整文本大小

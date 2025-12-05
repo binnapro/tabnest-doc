@@ -20,12 +20,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/guide/getting-started">
-            🚀 Get Started
+            🚀 快速开始
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
             to="/docs/features/overview">
-            ✨ Features
+            ✨ 功能特性
           </Link>
         </div>
       </div>
@@ -47,40 +47,40 @@ function FeaturesSection() {
   return (
     <section style={{padding: '80px 20px', backgroundColor: 'var(--ifm-background-surface-secondary)'}}>
       <div className="container">
-        <h2 style={{textAlign: 'center', marginBottom: '20px', fontSize: '2.5rem', color: 'var(--ifm-color-primary-dark)', fontWeight: 'bold'}}>Why TabNest?</h2>
+        <h2 style={{textAlign: 'center', marginBottom: '20px', fontSize: '2.5rem', color: 'var(--ifm-color-primary-dark)', fontWeight: 'bold'}}>为什么选择 TabNest？</h2>
         <p style={{textAlign: 'center', marginBottom: '50px', color: '#666', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto 50px'}}>
-          Everything you need to organize and manage your browser tabs efficiently
+          高效管理和组织浏览器标签页所需的一切功能
         </p>
         <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0', marginLeft: '-10px', marginRight: '-10px'}}>
           <FeatureCard
             icon="🗂️"
-            title="Organize Spaces"
-            description="Create multiple workspaces for different projects and contexts"
+            title="空间管理"
+            description="为不同项目和场景创建多个工作空间"
           />
           <FeatureCard
             icon="🤖"
-            title="AI Powered"
-            description="Automatically categorize tabs with AI intelligence"
+            title="AI 智能分类"
+            description="使用人工智能自动分类整理标签页"
           />
           <FeatureCard
             icon="☁️"
-            title="Cloud Sync"
-            description="Backup to GitHub Gist or WebDAV for peace of mind"
+            title="云端同步"
+            description="支持 GitHub Gist 或 WebDAV 备份，数据更安全"
           />
           <FeatureCard
             icon="🔍"
-            title="Global Search"
-            description="Find any tab instantly across all your spaces"
+            title="全局搜索"
+            description="跨所有空间即时查找任意标签页"
           />
           <FeatureCard
             icon="🎨"
-            title="Beautiful Design"
-            description="Dark mode, light mode, and system theme support"
+            title="精美设计"
+            description="支持深色模式、浅色模式和系统主题"
           />
           <FeatureCard
             icon="🌍"
-            title="Multi-language"
-            description="Available in English and Simplified Chinese"
+            title="多语言支持"
+            description="提供中文和英文界面"
           />
         </div>
       </div>
@@ -92,26 +92,26 @@ function UseCaseSection() {
   return (
     <section style={{padding: '80px 20px'}}>
       <div className="container">
-        <h2 style={{textAlign: 'center', marginBottom: '20px', fontSize: '2.5rem', color: 'var(--ifm-color-primary-dark)', fontWeight: 'bold'}}>Perfect For</h2>
+        <h2 style={{textAlign: 'center', marginBottom: '20px', fontSize: '2.5rem', color: 'var(--ifm-color-primary-dark)', fontWeight: 'bold'}}>适用人群</h2>
         <p style={{textAlign: 'center', marginBottom: '50px', color: '#666', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto 50px'}}>
-          TabNest is designed for professionals who manage multiple projects and contexts
+          TabNest 专为需要管理多个项目和工作场景的专业人士设计
         </p>
         <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '30px'}}>
           <div className="use-case-card">
-            <h3>👨‍💻 Developers</h3>
-            <p>Organize docs, APIs, frameworks, and tools for each project</p>
+            <h3>👨‍💻 开发者</h3>
+            <p>为每个项目整理文档、API、框架和工具</p>
           </div>
           <div className="use-case-card">
-            <h3>🔬 Researchers</h3>
-            <p>Keep research materials, papers, and references organized</p>
+            <h3>🔬 研究人员</h3>
+            <p>有序管理研究资料、论文和参考文献</p>
           </div>
           <div className="use-case-card">
-            <h3>📊 Product Managers</h3>
-            <p>Track competitors, requirements, and market research</p>
+            <h3>📊 产品经理</h3>
+            <p>跟踪竞品、需求和市场调研信息</p>
           </div>
           <div className="use-case-card">
-            <h3>🎓 Students</h3>
-            <p>Organize course materials, assignments, and resources</p>
+            <h3>🎓 学生</h3>
+            <p>整理课程资料、作业和学习资源</p>
           </div>
         </div>
       </div>
@@ -123,20 +123,20 @@ function CTASection() {
   return (
     <section style={{padding: '80px 20px', backgroundColor: 'var(--ifm-background-surface-secondary)', textAlign: 'center'}}>
       <div className="container">
-        <h2 style={{fontSize: '2.5rem', color: 'var(--ifm-color-primary-dark)', fontWeight: 'bold', marginBottom: '20px'}}>Ready to Organize Your Tabs?</h2>
+        <h2 style={{fontSize: '2.5rem', color: 'var(--ifm-color-primary-dark)', fontWeight: 'bold', marginBottom: '20px'}}>准备好整理你的标签页了吗？</h2>
         <p style={{fontSize: '1.1rem', marginBottom: '40px', color: '#666', maxWidth: '600px', margin: '0 auto 40px', lineHeight: '1.6'}}>
-          TabNest is free and open-source. Works perfectly with Chrome, Edge, Brave, and all Chromium-based browsers.
+          TabNest 完全免费且开源，完美支持 Chrome、Edge、Brave 等所有基于 Chromium 的浏览器
         </p>
         <div style={{display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '30px'}}>
           <Link className="button button--primary button--lg" to="/docs/guide/getting-started">
-            🚀 Get Started Now
+            🚀 立即开始
           </Link>
           <Link className="button button--secondary button--lg" to="/docs/guide/installation">
-            📦 Installation Guide
+            📦 安装指南
           </Link>
         </div>
         <p style={{color: '#999', fontSize: '0.9rem'}}>
-          Have questions? Check our <Link to="/docs/04-faq/faq">FAQ</Link> or visit <a href="https://github.com/oayzz/tabnest" target="_blank" rel="noopener noreferrer">GitHub</a>
+          有疑问？查看我们的 <Link to="/docs/04-faq/faq">常见问题</Link> 或访问 <a href="https://github.com/oayzz/tabnest" target="_blank" rel="noopener noreferrer">GitHub</a>
         </p>
       </div>
     </section>

@@ -1,88 +1,88 @@
 ---
 sidebar_position: 3
-title: Basic Usage
+title: 基本使用
 ---
 
-# Basic Usage
+# 基本使用
 
-Master the fundamentals of TabNest to start organizing your tabs.
+掌握 TabNest 的基础知识，开始整理你的标签页。
 
-## Understanding the Interface
+## 了解界面
 
-The TabNest dashboard has three main sections:
+TabNest 界面包含三个主要部分：
 
-1. **Left Sidebar** - Your Spaces (workspaces)
-2. **Main Area** - Tab Groups and saved tabs
-3. **Right Panel** - Quick actions and settings
+1. **左侧边栏** - 你的空间（工作区）
+2. **主区域** - 标签组和已保存的标签页
+3. **右侧面板** - 快速操作和设置
 
-## Creating a Space
+## 创建空间
 
-Spaces are workspaces that help you organize tabs by project or context.
+空间（Spaces）是帮助你按项目或场景整理标签页的工作区。
 
-1. Click the **"+"** button in the left sidebar
-2. Enter a name for your Space (e.g., "Work", "Personal", "Research")
-3. (Optional) Choose an emoji icon for quick visual identification
-4. Click "Create"
+1. 点击左侧边栏中的"**+**"按钮
+2. 为你的空间输入名称（例如："工作"、"个人"、"研究"）
+3. （可选）选择一个表情符号图标，便于快速识别
+4. 点击"创建"
 
-## Adding Tab Groups
+## 添加标签组
 
-Tab Groups are collections of related tabs within a Space.
+标签组是空间内相关标签页的集合。
 
-1. Inside a Space, click **"+ Add Group"**
-2. Enter a group name (e.g., "Frontend Docs", "API References")
-3. Choose a color (optional)
-4. Click "Create"
+1. 在空间内，点击"**+ 添加分组**"
+2. 输入分组名称（例如："前端文档"、"API 参考"）
+3. 选择一个颜色（可选）
+4. 点击"创建"
 
-## Saving Tabs
+## 保存标签页
 
-### Method 1: Save Current Browser Window
+### 方法 1：保存当前浏览器窗口
 
-1. Open the browser tabs you want to save
-2. Click the TabNest icon
-3. Click **"Save Current Tabs"**
-4. Select the destination Space and Group
-5. Click "Save"
+1. 打开你想保存的浏览器标签页
+2. 点击 TabNest 图标
+3. 点击"**保存当前标签**"
+4. 选择目标空间和标签组
+5. 点击"保存"
 
-### Method 2: Drag and Drop
+### 方法 2：拖放
 
-1. Open a URL in your browser
-2. Drag it to a Tab Group in the TabNest dashboard
-3. The tab is saved!
+1. 在浏览器中打开一个 URL
+2. 将其拖至 TabNest 界面中的标签组
+3. 标签页保存成功！
 
-### Method 3: Context Menu
+### 方法 3：右键菜单
 
-Right-click any link and select "Add to TabNest" (if enabled in settings)
+右键点击任何链接并选择"添加到 TabNest"（如果在设置中启用）
 
-## Opening Saved Tabs
+## 打开已保存的标签页
 
-### Open Single Tab
+### 打开单个标签页
 
-Click on any saved tab card to open it in your browser.
+点击任何已保存的标签页卡片即可在浏览器中打开。
 
-### Open All Tabs in a Group
+### 打开标签组中的所有标签页
 
-Click the **"Open All"** button on a Tab Group to open all tabs at once.
+点击标签组上的"**打开所有**"按钮，一次性打开所有标签页。
 
-## Managing Tabs and Groups
+## 管理标签页和标签组
 
-### Rename
+### 重命名
 
-Double-click the name of a Space or Group to edit it.
+双击空间或标签组的名称即可编辑。
 
-### Reorder
+### 重新排序
 
-Drag and drop Spaces and Groups to rearrange them.
+拖放空间和标签组以重新排列顺序。
 
-### Delete
+### 删除
 
-Right-click and select "Delete", or use the context menu.
+右键点击并选择"删除"，或使用上下文菜单。
 
-### Collapse/Expand Groups
+### 折叠/展开标签组
 
-Click the arrow next to a Group name to collapse or expand it.
+点击标签组名称旁的箭头以折叠或展开它。
 
-## Next Steps
+## 下一步
 
-- Learn about [Spaces and Tab Groups](../02-features/spaces)
-- Set up [AI-powered categorization](../02-features/ai-classify)
-- Enable [Cloud Sync](../02-features/cloud-sync)
+- 了解更多关于[空间和标签组](../02-features/spaces)的信息
+- 设置 [AI 智能分类](../02-features/ai-classify)
+- 启用[云端同步](../02-features/cloud-sync)

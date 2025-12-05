@@ -1,178 +1,178 @@
 ---
 sidebar_position: 3
-title: Tab Groups
+title: 标签组
 ---
 
-# Tab Groups - Organize Within Spaces
+# 标签组 - 在空间内组织
 
-Tab Groups are collections of related tabs within a Space. They allow you to further organize your work by topic, task, or any logical grouping.
+标签组是空间内相关标签页的集合。它们允许你按主题、任务或任何逻辑分组进一步组织你的工作。
 
-## Creating Tab Groups
+## 创建标签组
 
-### Method 1: Add Group Button
+### 方法 1:添加分组按钮
 
-1. Select a Space from the left sidebar
-2. In the main area, click **"+ Add Group"**
-3. Enter a group name (e.g., "APIs to Read", "Design References")
-4. (Optional) Choose a color and icon
-5. Click **"Create"**
+1. 从左侧边栏选择一个空间
+2. 在主区域中,点击 **"+ 添加分组"**
+3. 输入分组名称(例如:"待阅读的 API"、"设计参考")
+4. (可选)选择颜色和图标
+5. 点击 **"创建"**
 
-### Method 2: From Saved Tabs
+### 方法 2:从已保存的标签页创建
 
-1. Save multiple tabs to a Space
-2. Right-click a saved tab
-3. Select **"Move to New Group"**
-4. Enter the group name
+1. 将多个标签页保存到一个空间
+2. 右键点击已保存的标签页
+3. 选择 **"移动到新分组"**
+4. 输入分组名称
 
-## Understanding Group Features
+## 了解分组功能
 
-### Color Coding
+### 颜色编码
 
-Each group can have a color for visual organization:
-- **Blue** - API References, Documentation
-- **Green** - Active Projects, In Progress
-- **Yellow** - To Review, Important
-- **Red** - High Priority, Urgent
-- **Purple** - Learning, Research
-- **Gray** - Archived, On Hold
+每个分组可以有一个颜色用于视觉组织:
+- **蓝色** - API 参考、文档
+- **绿色** - 活动项目、进行中
+- **黄色** - 待审查、重要
+- **红色** - 高优先级、紧急
+- **紫色** - 学习、研究
+- **灰色** - 已归档、暂停
 
-Click the color dot next to a group name to change it.
+点击分组名称旁边的颜色点即可更改。
 
-### Icons
+### 图标
 
-Similar to Spaces, groups can have emoji icons:
-- 📚 Documentation
-- 🎨 Design Resources
-- 🔧 Tools
-- 📊 Analytics
-- 🛠️ Development
-- 📝 Notes
+与空间类似,分组也可以有表情符号图标:
+- 📚 文档
+- 🎨 设计资源
+- 🔧 工具
+- 📊 分析
+- 🛠️ 开发
+- 📝 笔记
 
-Click the icon to open the emoji picker.
+点击图标打开表情符号选择器。
 
-## Managing Tabs in Groups
+## 管理分组中的标签页
 
-### Adding Tabs
+### 添加标签页
 
-**Method 1: Save Current Tabs**
-1. Open tabs in your browser
-2. Click TabNest icon
-3. Click **"Save Current Tabs"**
-4. Select destination Space and Group
-5. Click **"Save"**
+**方法 1:保存当前标签页**
+1. 在浏览器中打开标签页
+2. 点击 TabNest 图标
+3. 点击 **"保存当前标签"**
+4. 选择目标空间和分组
+5. 点击 **"保存"**
 
-**Method 2: Drag & Drop**
-1. Drag a URL or link into a tab group
-2. The tab is automatically added
+**方法 2:拖放**
+1. 将 URL 或链接拖到标签组中
+2. 标签页自动添加
 
-**Method 3: Context Menu**
-- Right-click a link and select **"Add to TabNest"** (if enabled)
+**方法 3:右键菜单**
+- 右键点击链接并选择 **"添加到 TabNest"**(如果已启用)
 
-### Opening Tabs
+### 打开标签页
 
-**Open Single Tab:**
-- Click any tab card to open it in your browser
+**打开单个标签页:**
+- 点击任何标签卡片即可在浏览器中打开
 
-**Open All Tabs:**
-- Click the **"Open All"** button on a group header
-- Opens all tabs in the group in new browser tabs
+**打开所有标签页:**
+- 点击分组标题上的 **"打开所有"** 按钮
+- 在新浏览器标签页中打开分组中的所有标签页
 
-**Open in New Window:**
-- Ctrl+Click (or Cmd+Click on Mac) to open in a new window
+**在新窗口中打开:**
+- Ctrl+点击(或 Mac 上的 Cmd+点击)在新窗口中打开
 
-### Removing Tabs
+### 删除标签页
 
-1. Hover over a tab card
-2. Click the **"X"** button
-3. Confirm deletion
+1. 悬停在标签卡片上
+2. 点击 **"X"** 按钮
+3. 确认删除
 
-Or right-click the tab and select **"Remove"**.
+或右键点击标签页并选择 **"删除"**。
 
-### Reordering Tabs
+### 重新排序标签页
 
-Drag and drop tabs within a group or between groups to reorganize them.
+在分组内或分组之间拖放标签页以重新组织它们。
 
-## Group Actions
+## 分组操作
 
-### Rename a Group
+### 重命名分组
 
-1. Right-click on the group name
-2. Select **"Rename"**
-3. Enter the new name
-4. Press Enter
+1. 右键点击分组名称
+2. 选择 **"重命名"**
+3. 输入新名称
+4. 按 Enter 键
 
-Or double-click the group name to edit directly.
+或双击分组名称直接编辑。
 
-### Collapse/Expand Groups
+### 折叠/展开分组
 
-Click the **arrow icon** next to a group name to collapse or expand it. Useful when you have many groups and want to save space.
+点击分组名称旁边的 **箭头图标** 以折叠或展开它。当你有很多分组并想节省空间时很有用。
 
-### Duplicate a Group
+### 复制分组
 
-1. Right-click on a group
-2. Select **"Duplicate"**
-3. A copy will be created in the same Space
+1. 右键点击分组
+2. 选择 **"复制"**
+3. 将在同一空间中创建副本
 
-### Move a Group
+### 移动分组
 
-1. Right-click on a group
-2. Select **"Move"**
-3. Choose destination Space
-4. Click **"Move"**
+1. 右键点击分组
+2. 选择 **"移动"**
+3. 选择目标空间
+4. 点击 **"移动"**
 
-Or use drag and drop if the destination Space is visible.
+或如果目标空间可见,使用拖放。
 
-### Delete a Group
+### 删除分组
 
-⚠️ **Warning**: This action cannot be undone!
+⚠️ **警告**:此操作无法撤销!
 
-1. Right-click on a group
-2. Select **"Delete"**
-3. Confirm the deletion
+1. 右键点击分组
+2. 选择 **"删除"**
+3. 确认删除
 
-All tabs in the group will also be deleted.
+分组中的所有标签页也将被删除。
 
-## Group Statistics
+## 分组统计
 
-Hover over a group name to see:
-- Number of tabs in the group
-- Last modified time
-- Total storage used
+悬停在分组名称上可查看:
+- 分组中的标签页数量
+- 上次修改时间
+- 使用的总存储空间
 
-## Tips & Best Practices
+## 技巧与最佳实践
 
-### Naming Groups
+### 命名分组
 
-- **Be specific**: "React Components" is better than "Stuff"
-- **Use verbs when appropriate**: "To Review", "In Progress", "Completed"
-- **Keep it short**: Aim for 2-4 words
-- **Use prefixes for ordering**: "1. Research", "2. Design", "3. Development"
+- **具体明确**:"React 组件"比"东西"好
+- **适当使用动词**:"待审查"、"进行中"、"已完成"
+- **保持简短**:目标是 2-4 个词
+- **使用前缀排序**:"1. 研究"、"2. 设计"、"3. 开发"
 
-### Organization Patterns
+### 组织模式
 
-**By Task Stage:**
-- "🔍 Research"
-- "📝 Planning"
-- "🔨 Implementation"
-- "✅ Testing"
-- "📦 Deployment"
+**按任务阶段:**
+- "🔍 研究"
+- "📝 规划"
+- "🔨 实施"
+- "✅ 测试"
+- "📦 部署"
 
-**By Document Type:**
-- "📚 Documentation"
-- "🎨 Design Files"
-- "📊 Data & Analytics"
-- "📋 Requirements"
+**按文档类型:**
+- "📚 文档"
+- "🎨 设计文件"
+- "📊 数据与分析"
+- "📋 需求"
 
-**By Urgency:**
-- "🔴 Critical"
-- "🟠 High Priority"
-- "🟡 Medium Priority"
-- "🟢 Low Priority"
+**按紧急程度:**
+- "🔴 关键"
+- "🟠 高优先级"
+- "🟡 中优先级"
+- "🟢 低优先级"
 
-### Managing Group Overflow
+### 管理分组溢出
 
-If a Space has many groups:
-1. **Use Collapse** - Collapse inactive groups
-2. **Archive Strategy** - Move old groups to an "Archive" Space
-3. **Regular Review** - Delete empty or unused groups monthly
-4. **Sub-spaces** - If too complex, consider creating a new Space instead
+如果空间中有很多分组:
+1. **使用折叠** - 折叠不活跃的分组
+2. **归档策略** - 将旧分组移动到"归档"空间
+3. **定期审查** - 每月删除空的或未使用的分组
+4. **子空间** - 如果太复杂,考虑创建新空间

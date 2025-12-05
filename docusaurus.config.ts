@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'TabNest',
-  tagline: 'Your productivity tool, save and organize your browser tabs efficiently.',
+  tagline: '你的效率工具，高效保存和整理浏览器标签页',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -27,9 +27,7 @@ const config: Config = {
 
   onBrokenLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Internationalization configuration
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -91,9 +89,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Docs',
+          label: '文档',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/oayzz/tabnest',
           label: 'GitHub',
@@ -105,24 +103,24 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentation',
+          title: '文档',
           items: [
             {
-              label: 'Getting Started',
+              label: '快速开始',
               to: '/docs/guide/getting-started',
             },
             {
-              label: 'Features',
+              label: '功能特性',
               to: '/docs/features/overview',
             },
             {
-              label: 'FAQ',
+              label: '常见问题',
               to: '/docs/faq',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社区',
           items: [
             {
               label: 'GitHub Issues',
@@ -135,10 +133,10 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '博客',
               to: '/blog',
             },
             {
@@ -148,7 +146,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} TabNest. Built with Docusaurus.`,
+      copyright: `版权所有 © ${new Date().getFullYear()} TabNest. 使用 Docusaurus 构建。`,
     },
     prism: {
       theme: prismThemes.github,

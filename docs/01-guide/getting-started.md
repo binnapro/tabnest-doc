@@ -1,47 +1,47 @@
 ---
 sidebar_position: 1
-title: Getting Started
+title: 快速开始
 ---
 
-# Getting Started with TabNest
+# TabNest 快速开始
 
-Welcome to TabNest! This guide will help you get up and running in just a few minutes.
+欢迎使用 TabNest！本指南将帮助你在几分钟内快速上手。
 
-## What is TabNest?
+## 什么是 TabNest？
 
-TabNest is a productivity tool that helps you save, organize, and manage your browser tabs efficiently. With TabNest, you can:
+TabNest 是一款效率工具，帮助你高效地保存、整理和管理浏览器标签页。使用 TabNest，你可以：
 
-- Create multiple workspaces (Spaces) for different projects
-- Group related tabs together with custom colors and icons
-- Use AI to automatically categorize and organize your tabs
-- Sync your data to the cloud using GitHub Gist or WebDAV
-- Search across all your saved tabs instantly
+- 为不同项目创建多个工作空间（Spaces）
+- 使用自定义颜色和图标将相关标签页分组
+- 使用 AI 自动分类和整理标签页
+- 使用 GitHub Gist 或 WebDAV 将数据同步到云端
+- 即时搜索所有已保存的标签页
 
-## Quick Installation
+## 快速安装
 
-### For Chrome/Edge
+### Chrome/Edge 浏览器
 
-1. Visit the [Chrome Web Store](https://chromewebstore.google.com) (coming soon)
-2. Click "Add to Chrome"
-3. Confirm by clicking "Add extension"
+1. 访问 [Chrome 网上应用店](https://chromewebstore.google.com)（即将上线）
+2. 点击"添加至 Chrome"
+3. 确认并点击"添加扩展程序"
 
-### For Firefox
+### Firefox 浏览器
 
-Firefox support is coming soon!
+Firefox 支持即将推出！
 
-## First Steps
+## 首次使用
 
-1. Click the TabNest icon in your browser toolbar
-2. Create your first Space by clicking the "+" button
-3. Add a tab group and start saving your tabs
-4. Explore the settings to customize your experience
+1. 点击浏览器工具栏中的 TabNest 图标
+2. 点击"+"按钮创建你的第一个空间
+3. 添加标签组并开始保存标签页
+4. 前往设置以自定义你的使用体验
 
-## Next Steps
+## 下一步
 
-- Learn about [Spaces and Tab Groups](./basic-usage)
-- Discover [AI-powered features](../02-features/ai-classify)
-- Set up [Cloud Sync](../02-features/cloud-sync)
+- 了解 [空间和标签组](./basic-usage)
+- 探索 [AI 智能功能](../02-features/ai-classify)
+- 设置 [云端同步](../02-features/cloud-sync)
 
-## Need Help?
+## 需要帮助？
 
-Check out our [FAQ](../04-faq/faq) or visit the [GitHub Issues](https://github.com/oayzz/tabnest/issues) page.
+查看我们的[常见问题](../04-faq/faq)或访问 [GitHub Issues](https://github.com/oayzz/tabnest/issues) 页面。

@@ -1,68 +1,68 @@
 ---
 sidebar_position: 1
-title: Keyboard Shortcuts
+title: 键盘快捷键
 ---
 
-# Keyboard Shortcuts & Quick Commands
+# 键盘快捷键与快速命令
 
-Master TabNest with these essential keyboard shortcuts for faster workflow.
+掌握这些重要的键盘快捷键,让 TabNest 使用更高效。
 
-## Global Shortcuts
+## 全局快捷键
 
-| Shortcut | Mac | Windows/Linux | Action |
+| 快捷键 | Mac | Windows/Linux | 操作 |
 |----------|-----|---------------|--------|
-| **Open Dashboard** | `Cmd+Shift+O` | `Ctrl+Shift+O` | Open TabNest dashboard in new tab |
-| **Open Dashboard (Current Tab)** | `Cmd+Shift+P` | `Ctrl+Shift+P` | Open TabNest dashboard in current tab |
-| **Search** | `Cmd+F` | `Ctrl+F` | Open global search dialog |
-| **Save Current Tabs** | `Cmd+Shift+S` | `Ctrl+Shift+S` | Save all open tabs (if enabled) |
+| **打开仪表盘** | `Cmd+Shift+O` | `Ctrl+Shift+O` | 在新标签页中打开 TabNest 仪表盘 |
+| **打开仪表盘(当前标签页)** | `Cmd+Shift+P` | `Ctrl+Shift+P` | 在当前标签页中打开 TabNest 仪表盘 |
+| **搜索** | `Cmd+F` | `Ctrl+F` | 打开全局搜索对话框 |
+| **保存当前标签页** | `Cmd+Shift+S` | `Ctrl+Shift+S` | 保存所有打开的标签页(如果已启用) |
 
-## Dashboard Shortcuts
+## 仪表盘快捷键
 
-Once inside the dashboard:
+进入仪表盘后:
 
-| Action | Shortcut | Description |
+| 操作 | 快捷键 | 描述 |
 |--------|----------|-------------|
-| **New Space** | `N` | Create a new Space |
-| **New Group** | `G` | Create a new Tab Group |
-| **Delete** | `Delete` / `Backspace` | Delete selected item |
-| **Rename** | `R` | Rename selected item |
-| **Search** | `Cmd/Ctrl+F` | Focus search box |
-| **Collapse All** | `Cmd+K` | Collapse all groups |
-| **Expand All** | `Cmd+Shift+K` | Expand all groups |
-| **Select All** | `Cmd+A` | Select all tabs |
-| **Deselect** | `Escape` | Clear selection |
+| **新空间** | `N` | 创建新空间 |
+| **新分组** | `G` | 创建新标签组 |
+| **删除** | `Delete` / `Backspace` | 删除选中的项目 |
+| **重命名** | `R` | 重命名选中的项目 |
+| **搜索** | `Cmd/Ctrl+F` | 聚焦搜索框 |
+| **全部折叠** | `Cmd+K` | 折叠所有分组 |
+| **全部展开** | `Cmd+Shift+K` | 展开所有分组 |
+| **全选** | `Cmd+A` | 选择所有标签页 |
+| **取消选择** | `Escape` | 清除选择 |
 
-## Navigation Shortcuts
+## 导航快捷键
 
-| Shortcut | Action |
+| 快捷键 | 操作 |
 |----------|--------|
-| `Tab` | Move to next element |
-| `Shift+Tab` | Move to previous element |
-| `Arrow Keys` | Navigate list items |
-| `Enter` | Open selected tab |
+| `Tab` | 移动到下一个元素 |
+| `Shift+Tab` | 移动到上一个元素 |
+| `方向键` | 导航列表项 |
+| `Enter` | 打开选中的标签页 |
 
-## Mouse Shortcuts
+## 鼠标快捷键
 
-| Action | Result |
+| 操作 | 结果 |
 |--------|--------|
-| **Ctrl/Cmd + Click** | Open in new window |
-| **Shift + Click** | Multi-select items |
-| **Drag & Drop** | Reorder items |
-| **Right Click** | Open context menu |
+| **Ctrl/Cmd + 点击** | 在新窗口中打开 |
+| **Shift + 点击** | 多选项目 |
+| **拖放** | 重新排序项目 |
+| **右键点击** | 打开右键菜单 |
 
-## Customizing Shortcuts
+## 自定义快捷键
 
-You can customize keyboard shortcuts in Settings:
+你可以在设置中自定义键盘快捷键:
 
-1. Open TabNest Settings
-2. Go to **Keyboard Shortcuts**
-3. Click on a shortcut to edit
-4. Press your desired key combination
-5. Click **"Save"**
+1. 打开 TabNest 设置
+2. 前往 **键盘快捷键**
+3. 点击快捷键进行编辑
+4. 按下你想要的组合键
+5. 点击 **"保存"**
 
-## Tips
+## 技巧
 
-- Learn shortcuts gradually - don't try to memorize them all at once
-- Start with the most-used ones (Search, New Space, New Group)
-- Customize shortcuts to match your workflow
-- Hover over buttons to see their keyboard shortcut
+- 逐步学习快捷键 - 不要试图一次记住所有快捷键
+- 从最常用的快捷键开始(搜索、新空间、新分组)
+- 自定义快捷键以匹配你的工作流程
+- 将鼠标悬停在按钮上以查看其键盘快捷键

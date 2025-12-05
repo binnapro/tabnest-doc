@@ -1,122 +1,122 @@
 ---
 sidebar_position: 2
-title: Spaces Management
+title: 空间管理
 ---
 
-# Spaces - Organize Your Work
+# 空间 - 整理你的工作
 
-Spaces are the foundation of TabNest's organization system. Think of them as independent workspaces, each with its own set of tab groups and saved tabs.
+空间是 TabNest 组织系统的基础。可以将它们视为独立的工作空间,每个空间都有自己的标签组和已保存的标签页集合。
 
-## What is a Space?
+## 什么是空间?
 
-A **Space** is a container that helps you organize tabs by project, context, or any categorization that makes sense to you. For example:
-- Work projects (Frontend, Backend, Design)
-- Personal interests (Learning, Shopping, Entertainment)
-- Time-based contexts (Q4 2024 Goals, Research Project A)
+**空间（Space）**是一个容器,帮助你按项目、场景或任何对你有意义的分类来组织标签页。例如:
+- 工作项目(前端、后端、设计)
+- 个人兴趣(学习、购物、娱乐)
+- 基于时间的场景(2024 年第四季度目标、研究项目 A)
 
-## Creating a Space
+## 创建空间
 
-### Method 1: From Dashboard
+### 方法 1:从仪表盘创建
 
-1. Open TabNest and look at the **left sidebar**
-2. Click the **"+"** button at the top of the Space list
-3. Enter a name for your Space
-4. (Optional) Select an emoji icon for quick visual recognition
-5. Click **"Create"**
+1. 打开 TabNest,查看**左侧边栏**
+2. 点击空间列表顶部的 **"+"** 按钮
+3. 为你的空间输入名称
+4. (可选)选择一个表情符号图标,便于快速识别
+5. 点击 **"创建"**
 
-### Method 2: Keyboard Shortcut
+### 方法 2:使用键盘快捷键
 
-You can also use the keyboard shortcut to quickly open the creation dialog (settings configurable).
+你也可以使用键盘快捷键快速打开创建对话框(可在设置中配置)。
 
-## Customizing Spaces
+## 自定义空间
 
-### Rename a Space
+### 重命名空间
 
-1. Right-click on a Space name
-2. Select **"Rename"**
-3. Enter the new name
-4. Press Enter or click away
+1. 右键点击空间名称
+2. 选择 **"重命名"**
+3. 输入新名称
+4. 按 Enter 键或点击其他地方
 
-### Change the Icon
+### 更改图标
 
-1. Click on a Space name to select it
-2. Look for the icon in the Space header
-3. Click to open the emoji picker
-4. Select your preferred emoji
+1. 点击空间名称以选中它
+2. 在空间标题中找到图标
+3. 点击打开表情符号选择器
+4. 选择你喜欢的表情符号
 
-### Delete a Space
+### 删除空间
 
-⚠️ **Warning**: This action cannot be undone!
+⚠️ **警告**:此操作无法撤销!
 
-1. Right-click on a Space
-2. Select **"Delete"**
-3. Confirm the deletion
+1. 右键点击空间
+2. 选择 **"删除"**
+3. 确认删除
 
-Note: All tab groups and tabs in the Space will be deleted.
+注意:空间中的所有标签组和标签页都将被删除。
 
-## Switching Between Spaces
+## 在空间之间切换
 
-Click any Space name in the left sidebar to switch to it. The main area will update to show that Space's tab groups and tabs.
+点击左侧边栏中的任何空间名称即可切换到该空间。主区域将更新以显示该空间的标签组和标签页。
 
-### Last Active Space
+### 上次活动空间
 
-TabNest remembers which Space you were viewing last. When you reopen the extension, it will automatically show that Space.
+TabNest 会记住你上次查看的空间。当你重新打开扩展时,它会自动显示该空间。
 
-## Reordering Spaces
+## 重新排序空间
 
-Drag and drop Spaces in the left sidebar to reorganize them in your preferred order.
+在左侧边栏中拖放空间,以你喜欢的顺序重新组织它们。
 
-## Tips & Best Practices
+## 技巧与最佳实践
 
-### Naming Conventions
+### 命名规范
 
-- Use clear, descriptive names (e.g., "Frontend Dev" instead of "Project 1")
-- Consider using prefixes for quick scanning (e.g., "📚 Learning", "💼 Work")
-- Keep names concise (15-20 characters ideal)
+- 使用清晰、描述性的名称(例如:"前端开发"而不是"项目 1")
+- 考虑使用前缀以便快速浏览(例如:"📚 学习"、"💼 工作")
+- 保持名称简洁(15-20 个字符最理想)
 
-### Organization Strategies
+### 组织策略
 
-**By Project:**
-- One Space per project
-- Great for developers and designers
-- Example: "E-commerce Site", "Mobile App", "Documentation"
+**按项目:**
+- 每个项目一个空间
+- 非常适合开发者和设计师
+- 示例:"电商网站"、"移动应用"、"文档"
 
-**By Context:**
-- Organize by time (Current Sprint, Next Quarter)
-- Or by activity (Research, Planning, Execution)
-- Useful for project managers
+**按场景:**
+- 按时间组织(当前冲刺、下个季度)
+- 或按活动(研究、计划、执行)
+- 适用于项目经理
 
-**By Domain:**
-- One Space per work domain
-- Example: "Marketing", "Engineering", "Operations"
-- Works well for larger teams
+**按领域:**
+- 每个工作领域一个空间
+- 示例:"营销"、"工程"、"运营"
+- 适用于较大的团队
 
-## Merging Spaces
+## 合并空间
 
-If you have two Spaces you'd like to combine:
+如果你有两个想要合并的空间:
 
-1. Open the Space you want to merge from
-2. Select all tab groups (use Ctrl+A or manually select)
-3. Cut the groups (Ctrl+X)
-4. Switch to the destination Space
-5. Paste (Ctrl+V)
+1. 打开要合并的源空间
+2. 选择所有标签组(使用 Ctrl+A 或手动选择)
+3. 剪切这些组(Ctrl+X)
+4. 切换到目标空间
+5. 粘贴(Ctrl+V)
 
-Or use the **Merge Spaces** feature (if available in Settings):
-1. Go to Settings → Data Management
-2. Look for "Merge Spaces" option
-3. Follow the dialog to combine Spaces
+或使用 **合并空间** 功能(如果在设置中可用):
+1. 前往设置 → 数据管理
+2. 查找"合并空间"选项
+3. 按照对话框合并空间
 
-## Converting Tab Groups to Spaces
+## 将标签组转换为空间
 
-If you have a very organized tab group that deserves its own Space:
+如果你有一个组织得很好的标签组,值得拥有自己的空间:
 
-1. Select the tab group
-2. Right-click and select **"Convert to Space"**
-3. A new Space will be created with the group's contents
-4. The original tab group will be removed
+1. 选择该标签组
+2. 右键点击并选择 **"转换为空间"**
+3. 将创建一个包含该组内容的新空间
+4. 原始标签组将被删除
 
-## Storage & Sync
+## 存储与同步
 
-Each Space's data is stored locally in your browser. You can sync Spaces to the cloud:
-- See [Cloud Sync](./cloud-sync) for GitHub Gist or WebDAV setup
-- All Spaces are included in cloud backups
+每个空间的数据存储在你的浏览器本地。你可以将空间同步到云端:
+- 查看 [云端同步](./cloud-sync) 以了解 GitHub Gist 或 WebDAV 设置
+- 所有空间都包含在云备份中
